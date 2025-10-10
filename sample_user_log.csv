@@ -1,0 +1,3 @@
+timestamp,user_input,language,intent,response
+2025-10-08 08:00:00,I wan send 2k go my mama account,pcm,Money Transfer,Transaction successful! ₦2,000 has been sent. 💸
+2025-10-08 08:01:00,Buy airtime 500,en,Airtime / Data Purchase,Airtime top-up complete. You’ve been credited with ₦500!
