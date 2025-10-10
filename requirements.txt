@@ -6,10 +6,11 @@ langdetect
 # Optional voice support
 SpeechRecognition
 gTTS
-PyAudio
+#PyAudio
 
 # Machine learning for language classification
 fasttext
 
 # (Optional but recommended for production stability)
 numpy
+
