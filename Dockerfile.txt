@@ -1,16 +1,21 @@
-FROM python:3.10
+# ---------- BASE IMAGE ----------
+FROM python:3.10-slim
 
+# ---------- SYSTEM SETUP ----------
+# Install PortAudio and build tools BEFORE installing Python deps
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    portaudio19-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# ---------- APP SETUP ----------
 WORKDIR /app
 COPY . /app
 
-# Install system libraries
-RUN apt-get update && apt-get install -y portaudio19-dev
-
 # Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
 
-# Expose Streamlit port
+# ---------- RUN ----------
 EXPOSE 8501
-
-# Run app
 CMD ["streamlit", "run", "Banking_Iya_Bola_App.py", "--server.port=8501", "--server.address=0.0.0.0"]
