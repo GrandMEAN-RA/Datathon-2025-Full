@@ -1,7 +1,15 @@
-streamlit
+# Core app dependencies
+streamlit==1.38.0
 pandas
 langdetect
-gTTS
-fasttext
+
+# Optional voice support
 SpeechRecognition
+gTTS
 PyAudio
+
+# Machine learning for language classification
+fasttext
+
+# (Optional but recommended for production stability)
+numpy
