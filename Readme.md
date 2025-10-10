@@ -24,8 +24,8 @@ It supports essential financial tasks and provides financial education using sim
 
 #### 🧩 Installations:
 
-1. Core (Required): pip install streamlit pandas langdetect
-2. Voice Features: pip install SpeechRecognition gTTS pyaudio
+1. Core (Required): pip install streamlit pandas Fasttext
+2. Voice Features: pip install SpeechRecognition gTTS pyaudio langdetect
 3. Voice input/output will only work if these are installed.
 
 
