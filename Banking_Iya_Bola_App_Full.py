@@ -129,7 +129,7 @@ def classify_intent(message):
 # ---------------------------------------------------
 def generate_response(message, language, intent):
     responses = {
-        "Account Balance": "💰 Your Account Balance is ₦xxx,yyy.zz 💸",
+        "Account Balance": "💰 Your Account Balance: ₦xxx,yyy.zz 💸",
         "Money Transfer": "✅ Transaction successful! ₦2,000 has been sent. 💸",
         "Airtime / Data Purchase": "📱 Airtime top-up complete. You’ve been credited with ₦500!",
         "Bill Payment": "💡 Your NEPA bill has been paid successfully.",
