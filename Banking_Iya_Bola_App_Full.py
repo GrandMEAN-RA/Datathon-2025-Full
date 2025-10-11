@@ -110,7 +110,7 @@ def detect_language(user_input):
 def classify_intent(message):
     msg = message.lower()
     if any(x in msg for x in ["balance", "account", "check", "weytin dey"]):
-        return "Acoount Balance"
+        return "Account Balance"
     elif any(x in msg for x in ["send", "transfer", "give", "wan send"]):
         return "Money Transfer"
     elif any(x in msg for x in ["buy airtime", "recharge", "data"]):
