@@ -27,7 +27,7 @@ if "page_configured" not in st.session_state:
     st.session_state["page_configured"] = True
 
 st.title("💬 Iya Bola Assistant")
-st.caption("Inclusive Financial Assistant for Africa — Text-based Prototype")
+st.caption("Inclusive Financial Assistant for Africa — Text/Voice based Prototype")
 
 # ---------------------------------------------------
 # OPTIONAL LIBRARIES

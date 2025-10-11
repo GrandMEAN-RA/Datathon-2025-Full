@@ -13,4 +13,3 @@ fasttext
 
 # (Optional but recommended for production stability)
 numpy
-

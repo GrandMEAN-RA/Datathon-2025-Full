@@ -12,7 +12,7 @@
 
 ###### **Project Title:**
 
-Iya Bola Assistant App - Empowering Africa through Data-Driven Financial Inclusion
+Iya Bola Assistant App — Where Language Meets Financial Access.
 
 
 
@@ -223,3 +223,8 @@ Iya Bola Assistant App is a multilingual, multimodal financial assistant designe
 * Add GPT API backend for smarter natural responses
 * Integrate Firebase or SQLite for permanent chat storage
 * Power BI dashboard from CSV
+
+
+
+Together, let’s make financial inclusion not just a goal, but a lived reality for every African.
+
