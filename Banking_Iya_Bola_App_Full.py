@@ -109,7 +109,9 @@ def detect_language(user_input):
 # ---------------------------------------------------
 def classify_intent(message):
     msg = message.lower()
-    if any(x in msg for x in ["send", "transfer", "give", "wan send"]):
+    if any(x in msg for x in ["balance", "account", "check", "weytin dey"]):
+        return "Acoount Balance"
+    elif any(x in msg for x in ["send", "transfer", "give", "wan send"]):
         return "Money Transfer"
     elif any(x in msg for x in ["buy airtime", "recharge", "data"]):
         return "Airtime / Data Purchase"
@@ -127,6 +129,7 @@ def classify_intent(message):
 # ---------------------------------------------------
 def generate_response(message, language, intent):
     responses = {
+        "Account Balance": "💰 Your Account Balance is ₦xxx,yyy.zz 💸",
         "Money Transfer": "✅ Transaction successful! ₦2,000 has been sent. 💸",
         "Airtime / Data Purchase": "📱 Airtime top-up complete. You’ve been credited with ₦500!",
         "Bill Payment": "💡 Your NEPA bill has been paid successfully.",
