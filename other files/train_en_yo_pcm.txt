@@ -1,0 +1,1786 @@
+__label__en How much profit did I make this week?
+__label__en How much do I have left in my account?
+__label__en Send me a summary of today’s expenses.
+__label__en Check my account balance.
+__label__en Transfer ₦200 to my sister.
+__label__en Save ₦10000 every Monday automatically.
+__label__en I need to pay my supplier ₦1000.
+__label__en Recharge ₦3000 for 9mobile.
+__label__en Deposit ₦500 into my wallet.
+__label__en Pay for my internet bill.
+__label__en Pay ₦10000 for my kids' school fees.
+__label__en Withdraw ₦200 cash from my account.
+__label__en I need to pay my supplier ₦500.
+__label__en Please send ₦5000 to my friend.
+__label__en Send ₦200 to my customer in Kano.
+__label__en Buy ₦200 data bundle for my Airtel line.
+__label__en Buy 2GB data plan for my Airtel line.
+__label__en Please send ₦200 to my friend.
+__label__en Buy 500MB for 9mobile network.
+__label__en Pay ₦500 for my kids' school fees.
+__label__en Check my account balance.
+__label__en Pay ₦3000 for my fuel bill.
+__label__en How much profit did I make this week?
+__label__en Buy 500MB for Glo network.
+__label__en Pay ₦1000 for my market space.
+__label__en Save ₦200 in my savings account.
+__label__en Withdraw ₦5000 cash from my account.
+__label__en Pay ₦2000 for my kids' school fees.
+__label__en Pay ₦5000 for my market space.
+__label__en How much profit did I make this week?
+__label__en Send ₦200 to my customer in Port Harcourt.
+__label__en I need to pay my supplier ₦5000.
+__label__en Check my account balance.
+__label__en I need a loan to grow my business.
+__label__en Send ₦10000 to my customer in Abuja.
+__label__en Pay ₦5000 for my market space.
+__label__en Send ₦500 to my customer in Port Harcourt.
+__label__en Buy ₦200 data bundle for my Glo line.
+__label__en Please send ₦5000 to my wife.
+__label__en How much do I have left in my account?
+__label__en Withdraw ₦1000 cash from my account.
+__label__en Recharge ₦10000 for 9mobile.
+__label__en Pay ₦500 for my fuel bill.
+__label__en Send ₦5000 to my customer in Lagos.
+__label__en Buy ₦10000 airtime for my MTN line.
+__label__en I want to start a new savings goal.
+__label__en Show me my last five transactions.
+__label__en How much do I have left in my account?
+__label__en Save ₦5000 in my savings account.
+__label__en Send ₦2000 to Bola in Kano.
+__label__en Pay ₦500 for my electricity bill.
+__label__en Top up my account with ₦1000.
+__label__en Send ₦2000 to Amina in Lagos.
+__label__en Pay ₦2000 for my fuel bill.
+__label__en Pay for my electricity bill.
+__label__en Save ₦10000 in my savings account.
+__label__en Pay for my water bill.
+__label__en Save ₦10000 in my savings account.
+__label__en Pay ₦2000 for my market space.
+__label__en I want to open a new savings account.
+__label__en I need a loan to grow my business.
+__label__en Pay for my DSTV subscription.
+__label__en Send ₦2000 to Tunde in Abuja.
+__label__en Save ₦200 every Friday automatically.
+__label__en Pay ₦2000 for my fuel bill.
+__label__en Save ₦3000 every Monday automatically.
+__label__en Recharge ₦2000 for 9mobile.
+__label__en Pay ₦2000 for my market space.
+__label__en Pay for my DSTV subscription.
+__label__en Recharge ₦500 for Airtel.
+__label__en Pay ₦10000 for my fuel bill.
+__label__en Recharge ₦200 for Airtel.
+__label__en Buy ₦500 airtime for my Airtel line.
+__label__en How much profit did I make this week?
+__label__en Deposit ₦500 into my wallet.
+__label__en Buy 2GB data plan for my Airtel line.
+__label__en Pay for my water bill.
+__label__en How much profit did I make this week?
+__label__en Pay for my water bill.
+__label__en Show me my last five transactions.
+__label__en Buy 1GB for 9mobile network.
+__label__en Check my account balance.
+__label__en Buy ₦200 data bundle for my 9mobile line.
+__label__en How much profit did I make this week?
+__label__en Buy ₦500 data bundle for my Glo line.
+__label__en I need a loan to grow my business.
+__label__en Pay ₦10000 for my market space.
+__label__en Send me a summary of today’s expenses.
+__label__en Buy 2GB for Glo network.
+__label__en Withdraw ₦200 cash from my account.
+__label__en How much profit did I make this week?
+__label__en Pay ₦500 for my market space.
+__label__en Withdraw ₦3000 cash from my account.
+__label__en Transfer ₦200 to my wife.
+__label__en Deposit ₦5000 into my wallet.
+__label__en Pay ₦200 for my market space.
+__label__en Save ₦3000 in my savings account.
+__label__en Deposit ₦500 into my wallet.
+__label__en Withdraw ₦5000 cash from my account.
+__label__en Please send ₦10000 to my friend.
+__label__en Show me my last five transactions.
+__label__en How much do I have left in my account?
+__label__en Top up my account with ₦200.
+__label__en Pay ₦500 for my kids' school fees.
+__label__en How much do I have left in my account?
+__label__en I want to start a new savings goal.
+__label__en Show me my last five transactions.
+__label__en I want to start a new savings goal.
+__label__en Pay ₦5000 for my market space.
+__label__en Top up my account with ₦500.
+__label__en Withdraw ₦3000 cash from my account.
+__label__en Send me a summary of today’s expenses.
+__label__en Deposit ₦500 into my wallet.
+__label__en I need a loan to grow my business.
+__label__en I want to open a new current account.
+__label__en I want to open a new savings account.
+__label__en Buy ₦3000 airtime for my 9mobile line.
+__label__en Recharge ₦200 for MTN.
+__label__en Remind me to pay water bill tomorrow.
+__label__en Send ₦1000 to Chioma in Ibadan.
+__label__en Please send ₦1000 to my father.
+__label__en I need to pay my supplier ₦1000.
+__label__en Deposit ₦500 into my wallet.
+__label__en Withdraw ₦500 cash from my account.
+__label__en Please send ₦200 to my husband.
+__label__en Save ₦1000 in my savings account.
+__label__en Deposit ₦1000 into my wallet.
+__label__en Pay ₦5000 for my fuel bill.
+__label__en Top up my account with ₦500.
+__label__en Remind me to pay water bill tomorrow.
+__label__en Save ₦3000 every Friday automatically.
+__label__en Pay ₦10000 for my kids' school fees.
+__label__en Please send ₦500 to my husband.
+__label__en Pay ₦2000 for my market space.
+__label__en I want to start a new savings goal.
+__label__en Please send ₦3000 to my brother.
+__label__en Please send ₦2000 to my friend.
+__label__en I need a loan to grow my business.
+__label__en Recharge ₦1000 for 9mobile.
+__label__en Buy 500MB for 9mobile network.
+__label__en Send ₦500 to Emeka in Lagos.
+__label__en Pay ₦200 for my kids' school fees.
+__label__en Send me a summary of today’s expenses.
+__label__en Recharge ₦3000 for MTN.
+__label__en I need to pay my supplier ₦5000.
+__label__en Send ₦10000 to Amina in Abuja.
+__label__en Check my account balance.
+__label__en Save ₦3000 in my savings account.
+__label__en Transfer ₦500 to my husband.
+__label__en Pay ₦5000 for my fuel bill.
+__label__en Pay ₦5000 for my market space.
+__label__en Deposit ₦500 into my wallet.
+__label__en Buy 2GB for Glo network.
+__label__en Please send ₦5000 to my brother.
+__label__en Send ₦2000 to John in Ibadan.
+__label__en Buy ₦200 airtime for my 9mobile line.
+__label__en Please send ₦1000 to my father.
+__label__en How much do I have left in my account?
+__label__en Transfer ₦10000 to my sister.
+__label__en Buy 500MB data plan for my Glo line.
+__label__en Save ₦3000 in my savings account.
+__label__en Top up my account with ₦10000.
+__label__en I need a loan to grow my business.
+__label__en Pay ₦10000 for my fuel bill.
+__label__en Check my account balance.
+__label__en I want to start a new savings goal.
+__label__en Withdraw ₦5000 cash from my account.
+__label__en Check my account balance.
+__label__en How much do I have left in my account?
+__label__en Show me my last five transactions.
+__label__en Show me my last five transactions.
+__label__en Save ₦200 every Friday automatically.
+__label__en Pay ₦5000 for my fuel bill.
+__label__en Withdraw ₦200 cash from my account.
+__label__en Withdraw ₦10000 cash from my account.
+__label__en I want to start a new savings goal.
+__label__en How much profit did I make this week?
+__label__en Deposit ₦500 into my wallet.
+__label__en Pay ₦5000 for my market space.
+__label__en Withdraw ₦1000 cash from my account.
+__label__en Send ₦2000 to my customer in Ibadan.
+__label__en Top up my account with ₦3000.
+__label__en Send ₦10000 to Bola in Port Harcourt.
+__label__en Send me a summary of today’s expenses.
+__label__en Send ₦3000 to Bola in Ibadan.
+__label__en Pay ₦500 for my fuel bill.
+__label__en Save ₦500 every Friday automatically.
+__label__en Send me a summary of today’s expenses.
+__label__en Please send ₦2000 to my wife.
+__label__en Buy 500MB data plan for my MTN line.
+__label__en Pay for my electricity bill.
+__label__en Pay for my water bill.
+__label__en Buy 2GB for 9mobile network.
+__label__en I want to open a new savings account.
+__label__en Check my account balance.
+__label__en I need to pay my supplier ₦2000.
+__label__en Show me my last five transactions.
+__label__en Send ₦2000 to my customer in Port Harcourt.
+__label__en Pay ₦1000 for my fuel bill.
+__label__en Pay ₦200 for my market space.
+__label__en Buy 1GB data plan for my MTN line.
+__label__en Buy 2GB for MTN network.
+__label__en I want to start a new savings goal.
+__label__en How much do I have left in my account?
+__label__en Check my account balance.
+__label__en Top up my account with ₦1000.
+__label__en Withdraw ₦10000 cash from my account.
+__label__en How much profit did I make this week?
+__label__en Check my account balance.
+__label__en Remind me to pay internet bill tomorrow.
+__label__en Withdraw ₦5000 cash from my account.
+__label__en Top up my account with ₦1000.
+__label__en I need a loan to grow my business.
+__label__en How much do I have left in my account?
+__label__en Top up my account with ₦1000.
+__label__en Show me my last five transactions.
+__label__en Transfer ₦10000 to my mother.
+__label__en Pay for my water bill.
+__label__en Top up my account with ₦2000.
+__label__en I want to open a new savings account.
+__label__en Send me a summary of today’s expenses.
+__label__en Buy 500MB data plan for my Glo line.
+__label__en Send me a summary of today’s expenses.
+__label__en Deposit ₦10000 into my wallet.
+__label__en Withdraw ₦200 cash from my account.
+__label__en I want to start a new savings goal.
+__label__en Top up my account with ₦3000.
+__label__en Pay ₦5000 for my DSTV subscription.
+__label__en Recharge ₦5000 for MTN.
+__label__en I need to pay my supplier ₦200.
+__label__en I want to open a new savings account.
+__label__en Pay ₦500 for my market space.
+__label__en Send me a summary of today’s expenses.
+__label__en Buy 1GB for 9mobile network.
+__label__en Send me a summary of today’s expenses.
+__label__en Send ₦3000 to my customer in Abuja.
+__label__en Check my account balance.
+__label__en Send me a summary of today’s expenses.
+__label__en Pay for my internet bill.
+__label__en Buy ₦500 airtime for my Airtel line.
+__label__en Please send ₦2000 to my mother.
+__label__en Pay for my electricity bill.
+__label__en Buy ₦500 data bundle for my MTN line.
+__label__en How much profit did I make this week?
+__label__en Check my account balance.
+__label__en Save ₦1000 in my savings account.
+__label__en Deposit ₦5000 into my wallet.
+__label__en Save ₦10000 in my savings account.
+__label__en Remind me to pay internet bill tomorrow.
+__label__en I want to start a new savings goal.
+__label__en Send ₦5000 to my customer in Ibadan.
+__label__en Buy 1GB data plan for my 9mobile line.
+__label__en Pay ₦2000 for my fuel bill.
+__label__en How much do I have left in my account?
+__label__en Remind me to pay electricity bill tomorrow.
+__label__en Withdraw ₦500 cash from my account.
+__label__en Remind me to pay DSTV subscription tomorrow.
+__label__en Buy ₦3000 data bundle for my Glo line.
+__label__en Buy 1GB for Glo network.
+__label__en Pay ₦2000 for my fuel bill.
+__label__en Pay ₦3000 for my kids' school fees.
+__label__en Please send ₦10000 to my friend.
+__label__en Buy ₦10000 data bundle for my MTN line.
+__label__en Buy 2GB data plan for my Glo line.
+__label__en Buy 500MB for Airtel network.
+__label__en I need a loan to grow my business.
+__label__en I want to start a new savings goal.
+__label__en Remind me to pay electricity bill tomorrow.
+__label__en Buy ₦2000 data bundle for my Airtel line.
+__label__en How much do I have left in my account?
+__label__en Send me a summary of today’s expenses.
+__label__en Buy 500MB for Glo network.
+__label__en How much do I have left in my account?
+__label__en Send ₦1000 to my customer in Port Harcourt.
+__label__en Top up my account with ₦500.
+__label__en Pay ₦1000 for my kids' school fees.
+__label__en Buy 2GB data plan for my Glo line.
+__label__en I need a loan to grow my business.
+__label__en Send ₦5000 to my customer in Kano.
+__label__en Send ₦500 to Amina in Port Harcourt.
+__label__en Pay for my internet bill.
+__label__en How much do I have left in my account?
+__label__en Withdraw ₦1000 cash from my account.
+__label__en Send ₦5000 to my customer in Port Harcourt.
+__label__en I need a loan to grow my business.
+__label__en I need to pay my supplier ₦200.
+__label__en Send ₦1000 to my customer in Abuja.
+__label__en Send ₦5000 to Amina in Ibadan.
+__label__en Pay ₦5000 for my market space.
+__label__en Buy ₦10000 airtime for my Glo line.
+__label__en Pay ₦200 for my fuel bill.
+__label__en Show me my last five transactions.
+__label__en Pay ₦5000 for my kids' school fees.
+__label__en Buy 2GB data plan for my Glo line.
+__label__en Send ₦5000 to Bola in Port Harcourt.
+__label__en Top up my account with ₦3000.
+__label__en Show me my last five transactions.
+__label__en Pay ₦1000 for my water bill.
+__label__en Pay ₦5000 for my market space.
+__label__en Buy ₦1000 data bundle for my 9mobile line.
+__label__en I want to open a new savings account.
+__label__en Buy 500MB data plan for my Glo line.
+__label__en Check my account balance.
+__label__en I want to open a new current account.
+__label__en Pay ₦1000 for my market space.
+__label__en Recharge ₦2000 for MTN.
+__label__en I want to open a new current account.
+__label__en I need a loan to grow my business.
+__label__en Show me my last five transactions.
+__label__en Withdraw ₦500 cash from my account.
+__label__en Buy 1GB for MTN network.
+__label__en Buy 500MB data plan for my 9mobile line.
+__label__en I need to pay my supplier ₦200.
+__label__en Check my account balance.
+__label__en Save ₦1000 every Friday automatically.
+__label__en Send me a summary of today’s expenses.
+__label__en Send me a summary of today’s expenses.
+__label__en Please send ₦3000 to my sister.
+__label__en I need a loan to grow my business.
+__label__en Withdraw ₦3000 cash from my account.
+__label__en Top up my account with ₦5000.
+__label__en Send ₦2000 to Bola in Lagos.
+__label__en Save ₦5000 every weekend automatically.
+__label__en I need to pay my supplier ₦5000.
+__label__en I want to start a new savings goal.
+__label__en Pay for my electricity bill.
+__label__en Buy 500MB for 9mobile network.
+__label__en Pay ₦200 for my fuel bill.
+__label__en Check my account balance.
+__label__en Send ₦1000 to Amina in Port Harcourt.
+__label__en I need to pay my supplier ₦500.
+__label__en Please send ₦2000 to my wife.
+__label__en Pay ₦1000 for my market space.
+__label__en Remind me to pay water bill tomorrow.
+__label__en Please send ₦200 to my husband.
+__label__en Show me my last five transactions.
+__label__en Withdraw ₦1000 cash from my account.
+__label__en Pay ₦2000 for my market space.
+__label__en Send me a summary of today’s expenses.
+__label__en Transfer ₦10000 to my sister.
+__label__en Top up my account with ₦5000.
+__label__en Transfer ₦1000 to my wife.
+__label__en I need to pay my supplier ₦2000.
+__label__en Pay for my water bill.
+__label__en I want to start a new savings goal.
+__label__en Remind me to pay internet bill tomorrow.
+__label__en Pay ₦500 for my kids' school fees.
+__label__en Show me my last five transactions.
+__label__en I want to open a new current account.
+__label__en Deposit ₦500 into my wallet.
+__label__en Pay ₦5000 for my kids' school fees.
+__label__en Remind me to pay water bill tomorrow.
+__label__en I need a loan to grow my business.
+__label__en Check my account balance.
+__label__en I need to pay my supplier ₦1000.
+__label__en Buy 2GB for MTN network.
+__label__en Send ₦500 to John in Ibadan.
+__label__en Recharge ₦500 for 9mobile.
+__label__en I need a loan to grow my business.
+__label__en Show me my last five transactions.
+__label__en Pay ₦3000 for my kids' school fees.
+__label__en Recharge ₦200 for MTN.
+__label__en Show me my last five transactions.
+__label__en I want to start a new savings goal.
+__label__en I need a loan to grow my business.
+__label__en Please send ₦200 to my mother.
+__label__en Remind me to pay DSTV subscription tomorrow.
+__label__en Show me my last five transactions.
+__label__en Deposit ₦500 into my wallet.
+__label__en Pay ₦500 for my market space.
+__label__en Send ₦2000 to Chioma in Ibadan.
+__label__en Pay ₦500 for my market space.
+__label__en Show me my last five transactions.
+__label__en Buy 2GB for Airtel network.
+__label__en Please send ₦5000 to my wife.
+__label__en Pay ₦5000 for my fuel bill.
+__label__en Deposit ₦200 into my wallet.
+__label__en Transfer ₦10000 to my friend.
+__label__en Save ₦5000 every Friday automatically.
+__label__en Buy 1GB for Glo network.
+__label__en Buy ₦10000 airtime for my Glo line.
+__label__en Send me a summary of today’s expenses.
+__label__en Transfer ₦500 to my wife.
+__label__en Buy 500MB data plan for my 9mobile line.
+__label__en Pay ₦500 for my electricity bill.
+__label__en Deposit ₦500 into my wallet.
+__label__en Show me my last five transactions.
+__label__en Deposit ₦5000 into my wallet.
+__label__en Pay for my internet bill.
+__label__en Show me my last five transactions.
+__label__en How much profit did I make this week?
+__label__en Buy 2GB data plan for my Airtel line.
+__label__en Withdraw ₦10000 cash from my account.
+__label__en Recharge ₦500 for Glo.
+__label__en Pay for my electricity bill.
+__label__en Send ₦10000 to Bola in Kano.
+__label__en Save ₦5000 every Friday automatically.
+__label__en Withdraw ₦10000 cash from my account.
+__label__en I need a loan to grow my business.
+__label__en Send ₦5000 to my customer in Kano.
+__label__en Deposit ₦3000 into my wallet.
+__label__en Send ₦200 to Bola in Kano.
+__label__en Pay ₦200 for my kids' school fees.
+__label__en Buy ₦500 data bundle for my Glo line.
+__label__en Show me my last five transactions.
+__label__en Please send ₦5000 to my sister.
+__label__en Send ₦10000 to my customer in Kano.
+__label__en How much do I have left in my account?
+__label__en I want to start a new savings goal.
+__label__en Pay ₦200 for my DSTV subscription.
+__label__en Please send ₦5000 to my sister.
+__label__en Show me my last five transactions.
+__label__en I want to open a new current account.
+__label__en Buy 2GB for Airtel network.
+__label__en Deposit ₦200 into my wallet.
+__label__en I want to start a new savings goal.
+__label__en Buy ₦3000 data bundle for my MTN line.
+__label__en Transfer ₦500 to my mother.
+__label__en Buy ₦500 data bundle for my Airtel line.
+__label__en Recharge ₦5000 for MTN.
+__label__en Send me a summary of today’s expenses.
+__label__en Send ₦500 to Tunde in Abuja.
+__label__en Check my account balance.
+__label__en Save ₦3000 in my savings account.
+__label__en Pay for my DSTV subscription.
+__label__en How much profit did I make this week?
+__label__en Withdraw ₦3000 cash from my account.
+__label__en Top up my account with ₦5000.
+__label__en Send me a summary of today’s expenses.
+__label__en Save ₦1000 every Monday automatically.
+__label__en I need a loan to grow my business.
+__label__en Pay ₦2000 for my market space.
+__label__en Pay ₦2000 for my fuel bill.
+__label__en Send ₦10000 to Chioma in Ibadan.
+__label__en Please send ₦2000 to my mother.
+__label__en Save ₦5000 in my savings account.
+__label__en Buy 500MB for 9mobile network.
+__label__en Please send ₦2000 to my husband.
+__label__en Pay for my electricity bill.
+__label__en I need to pay my supplier ₦2000.
+__label__en Buy 1GB data plan for my 9mobile line.
+__label__en Send ₦5000 to Bola in Ibadan.
+__label__en Save ₦2000 in my savings account.
+__label__en Transfer ₦1000 to my father.
+__label__en I want to open a new savings account.
+__label__en Send ₦200 to my customer in Abuja.
+__label__en I need a loan to grow my business.
+__label__en Pay ₦1000 for my fuel bill.
+__label__en Transfer ₦500 to my mother.
+__label__en I need to pay my supplier ₦5000.
+__label__en Transfer ₦1000 to my wife.
+__label__en Send me a summary of today’s expenses.
+__label__en Deposit ₦5000 into my wallet.
+__label__en I need a loan to grow my business.
+__label__en Save ₦200 every weekend automatically.
+__label__en How much do I have left in my account?
+__label__en Pay ₦1000 for my market space.
+__label__en Recharge ₦3000 for MTN.
+__label__en I want to start a new savings goal.
+__label__en Buy ₦5000 airtime for my 9mobile line.
+__label__en I need a loan to grow my business.
+__label__en Send me a summary of today’s expenses.
+__label__en Show me my last five transactions.
+__label__en Pay ₦500 for my internet bill.
+__label__en Send ₦3000 to my customer in Lagos.
+__label__en Send ₦2000 to my customer in Lagos.
+__label__en Save ₦3000 every Friday automatically.
+__label__en Pay ₦2000 for my fuel bill.
+__label__en Send me a summary of today’s expenses.
+__label__en Pay ₦1000 for my kids' school fees.
+__label__en Withdraw ₦200 cash from my account.
+__label__en Send ₦5000 to Emeka in Kano.
+__label__en Pay ₦3000 for my kids' school fees.
+__label__en Save ₦200 in my savings account.
+__label__en I want to start a new savings goal.
+__label__en Pay ₦5000 for my market space.
+__label__en Save ₦2000 every Monday automatically.
+__label__en Deposit ₦1000 into my wallet.
+__label__en Buy ₦200 data bundle for my MTN line.
+__label__en Transfer ₦5000 to my friend.
+__label__en Deposit ₦200 into my wallet.
+__label__en Pay for my internet bill.
+__label__en Withdraw ₦1000 cash from my account.
+__label__en Buy ₦200 data bundle for my MTN line.
+__label__en How much do I have left in my account?
+__label__en Send ₦200 to Emeka in Lagos.
+__label__en Buy 2GB data plan for my 9mobile line.
+__label__en Pay ₦5000 for my fuel bill.
+__label__en Buy ₦3000 airtime for my MTN line.
+__label__en I want to open a new savings account.
+__label__en Recharge ₦5000 for MTN.
+__label__en Remind me to pay DSTV subscription tomorrow.
+__label__en Buy ₦500 airtime for my MTN line.
+__label__en I need to pay my supplier ₦200.
+__label__en I need to pay my supplier ₦3000.
+__label__en I want to start a new savings goal.
+__label__en I need to pay my supplier ₦1000.
+__label__en Please send ₦5000 to my brother.
+__label__en How much do I have left in my account?
+__label__en I want to start a new savings goal.
+
+__label__yo Mo fẹ sanwo fun DSTV.
+__label__yo Mo fẹ sanwo fun ina.
+__label__yo Fi ₦3000 kun akanti mi.
+__label__yo Fọwọsi isanwo fun intanẹẹti.
+__label__yo Ṣe o le ran mi ₦5000?
+__label__yo Ran ₦10000 si onibara mi ni Akure.
+__label__yo Sanwo ₦2000 fun omi.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣe mi ni iranti lati san DSTV ni ọla.
+__label__yo Jọwọ ran owo ₦1000 si iya mi.
+__label__yo Jọwọ ran owo ₦1000 si iya mi.
+__label__yo Mo fẹ sanwo fun ina pẹlu ₦1000.
+__label__yo Fi ₦10000 pamọ fun mi loni.
+__label__yo Fi ₦3000 kun akanti mi.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣe mi ni iranti lati san DSTV ni ọla.
+__label__yo Ṣe o le ran mi ₦200 fun owo osu.
+__label__yo Fọwọsi isanwo fun ina.
+__label__yo Mo fẹ sanwo fun DSTV.
+__label__yo Fi ₦1000 pamọ laifọwọyi.
+__label__yo Ṣe o le ran mi ₦5000?
+__label__yo Ṣeto ipamọ ₦3000 fun gbogbo Ọjọ́ Monday.
+__label__yo Fipamọ ₦1000 fun ọsẹ yi.
+__label__yo Ṣeto ipamọ ₦3000 fun gbogbo ọsẹ kọọkan.
+__label__yo Mo fẹ fi ₦200 pamọ sinu akanti ifowopamọ mi.
+__label__yo Fọwọsi isanwo fun DSTV.
+__label__yo Ṣe iranṣẹ owo fun ọkọ mi ni Abeokuta.
+__label__yo Ran ₦200 lọ si akanti iṣowo mi.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Ṣe iranṣẹ owo fun baba mi ni Lagos.
+__label__yo Ran ₦3000 si onibara mi ni Akure.
+__label__yo Mo fẹ sanwo fun ile-iwe.
+__label__yo Ṣe o le ran mi ₦1000 fun owo osu.
+__label__yo Fi ₦500 kun akanti mi.
+__label__yo Ṣeto ipamọ ₦200 fun gbogbo ọsẹ kọọkan.
+__label__yo Ṣe o le ran mi ₦2000 fun owo osu.
+__label__yo Ran ₦5000 lọ si akanti iṣowo mi.
+__label__yo Fi ₦10000 pamọ fun mi loni.
+__label__yo Ra 1GB data fun laini Airtel.
+__label__yo Ran ₦500 lọ si akanti iṣowo mi.
+__label__yo Ra ₦2000 airtime fun laini Glo mi.
+__label__yo Ran ₦500 si onibara mi ni Abeokuta.
+__label__yo Mo fẹ sanwo fun DSTV.
+__label__yo Ṣe o le ran mi ₦500?
+__label__yo Ṣe o le fi ₦2000 kun owo ipamọ mi?
+__label__yo Fi ₦200 pamọ laifọwọyi.
+__label__yo Ṣe o le ran mi ₦2000?
+__label__yo Mo fẹ yọ ₦5000 kuro ninu akanti mi.
+__label__yo Ṣe o le ran mi ₦200 fun owo osu.
+__label__yo Fọwọsi isanwo fun omi.
+__label__yo Ṣe mi ni iranti lati san intanẹẹti ni ọla.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣe o le ran mi ₦200 fun owo osu.
+__label__yo Ran ₦1000 si onibara mi ni Akure.
+__label__yo Ra data 1GB fun MTN.
+__label__yo Mo fẹ sanwo fun ile-iwe pẹlu ₦2000.
+__label__yo Ṣe o le ran mi ₦3000 fun owo osu.
+__label__yo Sanwo ₦1000 fun ile-iwe.
+__label__yo Ran ₦200 lọ si Amina bayi.
+__label__yo Mo fẹ fi ₦2000 pamọ sinu akanti ifowopamọ mi.
+__label__yo Ṣe mi ni iranti lati san ile-iwe ni ọla.
+__label__yo Ṣe o le fi ₦1000 kun owo ipamọ mi?
+__label__yo Fi ₦3000 kun akanti mi.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦200.
+__label__yo Mo fẹ yọ ₦200 kuro ninu akanti mi.
+__label__yo Mo fẹ sanwo fun omi.
+__label__yo Ra 1GB data fun laini 9mobile.
+__label__yo Fipamọ ₦200 fun ọsẹ yi.
+__label__yo Ṣe o le ran mi ₦500?
+__label__yo Ra 2GB data fun laini MTN.
+__label__yo Fọwọsi isanwo fun ile-iwe.
+__label__yo Ṣe iranṣẹ owo fun baba mi ni Ibadan.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Ṣeto ipamọ ₦200 fun gbogbo Ọjọ́ Monday.
+__label__yo Ṣe o le fi ₦1000 kun owo ipamọ mi?
+__label__yo Ṣe iranṣẹ owo ₦3000 si Sade ni Ibadan.
+__label__yo Ra ₦1000 data fun laini MTN mi.
+__label__yo Mo fẹ san intanẹẹti fun ile mi.
+__label__yo Mo fẹ sanwo fun DSTV.
+__label__yo Ṣe o le fi ₦200 kun owo ipamọ mi?
+__label__yo Jọwọ ran owo ₦5000 si arabinrin mi.
+__label__yo Mo fẹ yọ ₦500 kuro ninu akanti mi.
+__label__yo Mo fẹ sanwo fun ina.
+__label__yo Ra data 1GB fun Glo.
+__label__yo Ran ₦1000 lọ si Amina bayi.
+__label__yo Ra 500MB data fun laini MTN.
+__label__yo Ra ₦200 data fun laini Airtel mi.
+__label__yo Ṣe mi ni iranti lati san DSTV ni ọla.
+__label__yo Mo fẹ fi ₦500 pamọ sinu akanti ifowopamọ mi.
+__label__yo Ran ₦1000 lọ si akanti iṣowo mi.
+__label__yo Ṣe o le ran mi ₦10000 fun owo osu.
+__label__yo Ra ₦200 data fun laini Glo mi.
+__label__yo Ṣeto ipamọ ₦500 fun gbogbo Ọjọ́ Monday.
+__label__yo Ran ₦3000 lọ si akanti iṣowo mi.
+__label__yo Ṣe mi ni iranti lati san omi ni ọla.
+__label__yo Fi ₦500 kun akanti mi.
+__label__yo Jọwọ ran owo ₦500 si baba mi.
+__label__yo Mo fẹ fi ₦10000 pamọ sinu akanti ifowopamọ mi.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Mo fẹ san omi fun ile mi.
+__label__yo Ṣe mi ni iranti lati san ina ni ọla.
+__label__yo Ra ₦3000 data fun laini Airtel mi.
+__label__yo Ra data 500MB fun MTN.
+__label__yo Mo fẹ yọ ₦3000 kuro ninu akanti mi.
+__label__yo Ṣe o le ran mi ₦10000?
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Ra 2GB data fun laini MTN.
+__label__yo Ra 1GB data fun laini MTN.
+__label__yo Mo fẹ sanwo fun intanẹẹti.
+__label__yo Ṣe o le fi ₦200 kun owo ipamọ mi?
+__label__yo Ra ₦2000 data fun laini 9mobile mi.
+__label__yo Ra ₦200 airtime fun laini Glo mi.
+__label__yo Ṣe iranṣẹ owo fun aya mi ni Abeokuta.
+__label__yo Fi ₦10000 pamọ laifọwọyi.
+__label__yo Ran ₦2000 si onibara mi ni Akure.
+__label__yo Ran ₦10000 si onibara mi ni Lagos.
+__label__yo Fọwọsi isanwo fun ile-iwe.
+__label__yo Mo fẹ sanwo fun DSTV pẹlu ₦10000.
+__label__yo Ra data 2GB fun Airtel.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣayẹwo iwọntunwọnsi mi bayi.
+__label__yo Mo fẹ sanwo fun DSTV.
+__label__yo Ra 2GB data fun laini Glo.
+__label__yo Ran ₦2000 lọ si Femi bayi.
+__label__yo Ṣe mi ni iranti lati san intanẹẹti ni ọla.
+__label__yo Ṣe o le ran mi ₦5000 fun owo osu.
+__label__yo Fọwọsi isanwo fun omi.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣe iranṣẹ owo fun iya mi ni Akure.
+__label__yo Fi ₦10000 pamọ laifọwọyi.
+__label__yo Fi ₦500 kun akanti mi.
+__label__yo Ṣe o le ran mi ₦500?
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Mo fẹ sanwo fun omi.
+__label__yo Ran ₦500 si onibara mi ni Ogbomoso.
+__label__yo Ṣeto ipamọ ₦1000 fun gbogbo Ọjọ́ Monday.
+__label__yo Fi ₦200 kun akanti mi.
+__label__yo Fi ₦200 kun akanti mi.
+__label__yo Jọwọ ran owo ₦200 si baba mi.
+__label__yo Ṣe mi ni iranti lati san intanẹẹti ni ọla.
+__label__yo Ra ₦5000 data fun laini MTN mi.
+__label__yo Ṣe iranṣẹ owo fun ọrẹ mi ni Ogbomoso.
+__label__yo Ṣe mi ni iranti lati san DSTV ni ọla.
+__label__yo Fọwọsi isanwo fun ile-iwe.
+__label__yo Mo fẹ sanwo fun DSTV pẹlu ₦10000.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦10000.
+__label__yo Ran ₦1000 lọ si akanti iṣowo mi.
+__label__yo Ran ₦1000 lọ si akanti iṣowo mi.
+__label__yo Ṣe o le ran mi ₦10000?
+__label__yo Fi ₦200 pamọ fun mi loni.
+__label__yo Fi ₦2000 pamọ fun mi loni.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦3000.
+__label__yo Ṣe iranṣẹ owo fun baba mi ni Akure.
+__label__yo Ra 2GB data fun laini Airtel.
+__label__yo Ra ₦2000 airtime fun laini MTN mi.
+__label__yo Ṣe o le ran mi ₦2000 fun owo osu.
+__label__yo Mo fẹ sanwo fun intanẹẹti pẹlu ₦2000.
+__label__yo Mo fẹ yọ ₦10000 kuro ninu akanti mi.
+__label__yo Fi ₦2000 pamọ fun mi loni.
+__label__yo Fi ₦2000 kun akanti mi.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦200.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣayẹwo iwọntunwọnsi mi bayi.
+__label__yo Ran ₦10000 lọ si akanti iṣowo mi.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Fi ₦200 kun akanti mi.
+__label__yo Mo fẹ sanwo fun intanẹẹti pẹlu ₦5000.
+__label__yo Ra ₦500 airtime fun laini 9mobile mi.
+__label__yo Fi ₦3000 pamọ fun mi loni.
+__label__yo Ṣe o le ran mi ₦200?
+__label__yo Ṣe o le ran mi ₦5000 fun owo osu.
+__label__yo Ran ₦10000 si onibara mi ni Akure.
+__label__yo Sanwo ₦5000 fun omi.
+__label__yo Mo fẹ san ina fun ile mi.
+__label__yo Ṣe o le ran mi ₦500 fun owo osu.
+__label__yo Ṣayẹwo iwọntunwọnsi mi bayi.
+__label__yo Ra ₦500 data fun laini Glo mi.
+__label__yo Mo fẹ yọ ₦10000 kuro ninu akanti mi.
+__label__yo Fi ₦5000 pamọ laifọwọyi.
+__label__yo Ra data 500MB fun MTN.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Sanwo ₦200 fun DSTV.
+__label__yo Ṣe o le ran mi ₦5000 fun owo osu.
+__label__yo Mo fẹ yọ ₦2000 kuro ninu akanti mi.
+__label__yo Mo fẹ fi ₦5000 pamọ sinu akanti ifowopamọ mi.
+__label__yo Fipamọ ₦10000 fun ọsẹ yi.
+__label__yo Ṣe mi ni iranti lati san ile-iwe ni ọla.
+__label__yo Fi ₦200 kun akanti mi.
+__label__yo Ṣe iranṣẹ owo ₦2000 si Kunle ni Akure.
+__label__yo Ṣe o le fi ₦1000 kun owo ipamọ mi?
+__label__yo Ran ₦3000 si onibara mi ni Lagos.
+__label__yo Jọwọ ran owo ₦10000 si baba mi.
+__label__yo Sanwo ₦500 fun DSTV.
+__label__yo Mo fẹ yọ ₦500 kuro ninu akanti mi.
+__label__yo Fipamọ ₦3000 fun ọsẹ yi.
+__label__yo Ra ₦5000 data fun laini 9mobile mi.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦5000.
+__label__yo Fi ₦5000 pamọ laifọwọyi.
+__label__yo Ra ₦5000 data fun laini MTN mi.
+__label__yo Fipamọ ₦500 fun ọsẹ yi.
+__label__yo Ṣe o le ran mi ₦200 fun owo osu.
+__label__yo Fi ₦3000 pamọ fun mi loni.
+__label__yo Ra ₦5000 airtime fun laini MTN mi.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣe iranṣẹ owo ₦3000 si Femi ni Ogbomoso.
+__label__yo Ṣe iranṣẹ owo ₦2000 si Amina ni Ibadan.
+__label__yo Ran ₦5000 si onibara mi ni Lagos.
+__label__yo Mo fẹ sanwo fun ile-iwe pẹlu ₦5000.
+__label__yo Fi ₦2000 pamọ fun mi loni.
+__label__yo Mo fẹ sanwo fun DSTV pẹlu ₦200.
+__label__yo Ṣe o le ran mi ₦3000 fun owo osu.
+__label__yo Ṣe mi ni iranti lati san DSTV ni ọla.
+__label__yo Mo fẹ san intanẹẹti fun ile mi.
+__label__yo Ra ₦1000 data fun laini 9mobile mi.
+__label__yo Ra 2GB data fun laini Glo.
+__label__yo Ṣe o le ran mi ₦5000 fun owo osu.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ran ₦500 lọ si Kunle bayi.
+__label__yo Fọwọsi isanwo fun ile-iwe.
+__label__yo Fipamọ ₦200 fun ọsẹ yi.
+__label__yo Fọwọsi isanwo fun DSTV.
+__label__yo Fọwọsi isanwo fun ile-iwe.
+__label__yo Ṣe iranṣẹ owo fun aya mi ni Akure.
+__label__yo Fi ₦5000 pamọ fun mi loni.
+__label__yo Ṣe mi ni iranti lati san intanẹẹti ni ọla.
+__label__yo Ṣeto ipamọ ₦5000 fun gbogbo Ọjọ́ Friday.
+__label__yo Fi ₦500 pamọ laifọwọyi.
+__label__yo Ṣe o le ran mi ₦5000?
+__label__yo Mo fẹ san ile-iwe fun ile mi.
+__label__yo Fi ₦2000 pamọ laifọwọyi.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Mo fẹ san ina fun ile mi.
+__label__yo Fi ₦1000 kun akanti mi.
+__label__yo Ṣayẹwo iwọntunwọnsi mi bayi.
+__label__yo Fi ₦1000 pamọ laifọwọyi.
+__label__yo Fi ₦1000 pamọ fun mi loni.
+__label__yo Ra 1GB data fun laini Airtel.
+__label__yo Ran ₦10000 lọ si Kunle bayi.
+__label__yo Mo fẹ sanwo fun DSTV.
+__label__yo Fi ₦10000 pamọ fun mi loni.
+__label__yo Fi ₦2000 kun akanti mi.
+__label__yo Sanwo ₦500 fun DSTV.
+__label__yo Mo fẹ sanwo fun DSTV pẹlu ₦200.
+__label__yo Sanwo ₦200 fun intanẹẹti.
+__label__yo Mo fẹ yọ ₦1000 kuro ninu akanti mi.
+__label__yo Mo fẹ san intanẹẹti fun ile mi.
+__label__yo Mo fẹ yọ ₦200 kuro ninu akanti mi.
+__label__yo Ra ₦200 airtime fun laini MTN mi.
+__label__yo Mo fẹ fi ₦5000 pamọ sinu akanti ifowopamọ mi.
+__label__yo Ṣayẹwo iwọntunwọnsi mi bayi.
+__label__yo Fọwọsi isanwo fun DSTV.
+__label__yo Jọwọ ran owo ₦2000 si aya mi.
+__label__yo Ṣe mi ni iranti lati san DSTV ni ọla.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦5000.
+__label__yo Fi ₦10000 kun akanti mi.
+__label__yo Mo fẹ sanwo fun ile-iwe pẹlu ₦1000.
+__label__yo Jọwọ ran owo ₦3000 si iya mi.
+__label__yo Fi ₦200 pamọ fun mi loni.
+__label__yo Fi ₦2000 pamọ fun mi loni.
+__label__yo Mo fẹ san omi fun ile mi.
+__label__yo Ran ₦10000 lọ si Amina bayi.
+__label__yo Mo fẹ sanwo fun intanẹẹti pẹlu ₦10000.
+__label__yo Mo fẹ sanwo fun ile-iwe.
+__label__yo Ṣe iranṣẹ owo fun arabinrin mi ni Ogbomoso.
+__label__yo Mo fẹ sanwo fun intanẹẹti.
+__label__yo Ran ₦1000 si onibara mi ni Abeokuta.
+__label__yo Ra 1GB data fun laini Glo.
+__label__yo Mo fẹ yọ ₦3000 kuro ninu akanti mi.
+__label__yo Fi ₦5000 pamọ laifọwọyi.
+__label__yo Ra ₦10000 data fun laini MTN mi.
+__label__yo Fi ₦2000 pamọ fun mi loni.
+__label__yo Ṣe o le ran mi ₦1000 fun owo osu.
+__label__yo Mo fẹ fi ₦2000 pamọ sinu akanti ifowopamọ mi.
+__label__yo Mo fẹ yọ ₦3000 kuro ninu akanti mi.
+__label__yo Ṣe iranṣẹ owo fun baba mi ni Akure.
+__label__yo Fi ₦200 pamọ laifọwọyi.
+__label__yo Fọwọsi isanwo fun DSTV.
+__label__yo Ran ₦3000 si onibara mi ni Lagos.
+__label__yo Fọwọsi isanwo fun omi.
+__label__yo Ran ₦200 si onibara mi ni Lagos.
+__label__yo Fipamọ ₦1000 fun ọsẹ yi.
+__label__yo Fi ₦1000 pamọ fun mi loni.
+__label__yo Ṣeto ipamọ ₦5000 fun gbogbo Ọjọ́ Friday.
+__label__yo Ra ₦1000 airtime fun laini Glo mi.
+__label__yo Ra data 2GB fun Glo.
+__label__yo Mo fẹ fi ₦10000 pamọ sinu akanti ifowopamọ mi.
+__label__yo Fọwọsi isanwo fun ina.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ra ₦5000 airtime fun laini MTN mi.
+__label__yo Ra ₦5000 airtime fun laini 9mobile mi.
+__label__yo Ra 2GB data fun laini 9mobile.
+__label__yo Ṣayẹwo iwọntunwọnsi mi bayi.
+__label__yo Ra ₦2000 airtime fun laini Airtel mi.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦1000.
+__label__yo Fi ₦2000 pamọ fun mi loni.
+__label__yo Fọwọsi isanwo fun intanẹẹti.
+__label__yo Jọwọ ran owo ₦1000 si aya mi.
+__label__yo Fi ₦10000 pamọ fun mi loni.
+__label__yo Ra ₦5000 airtime fun laini MTN mi.
+__label__yo Fi ₦3000 kun akanti mi.
+__label__yo Fọwọsi isanwo fun intanẹẹti.
+__label__yo Jọwọ ran owo ₦1000 si arako mi.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Ṣeto ipamọ ₦10000 fun gbogbo Ọjọ́ Monday.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Sanwo ₦500 fun DSTV.
+__label__yo Mo fẹ fi ₦10000 pamọ sinu akanti ifowopamọ mi.
+__label__yo Ṣe iranṣẹ owo ₦200 si Amina ni Abeokuta.
+__label__yo Mo fẹ sanwo fun omi.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Ran ₦200 lọ si Kunle bayi.
+__label__yo Ran ₦1000 lọ si akanti iṣowo mi.
+__label__yo Ṣe o le fi ₦200 kun owo ipamọ mi?
+__label__yo Ran ₦5000 lọ si akanti iṣowo mi.
+__label__yo Ṣe o le ran mi ₦200?
+__label__yo Fipamọ ₦10000 fun ọsẹ yi.
+__label__yo Ṣeto ipamọ ₦1000 fun gbogbo Ọjọ́ Monday.
+__label__yo Fọwọsi isanwo fun intanẹẹti.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Ṣe iranṣẹ owo fun aya mi ni Lagos.
+__label__yo Ran ₦1000 si onibara mi ni Akure.
+__label__yo Mo fẹ sanwo fun DSTV pẹlu ₦500.
+__label__yo Ṣeto ipamọ ₦10000 fun gbogbo ọsẹ kọọkan.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Ṣe o le ran mi ₦500?
+__label__yo Mo fẹ sanwo fun ina pẹlu ₦1000.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Mo fẹ san ile-iwe fun ile mi.
+__label__yo Fi ₦500 pamọ laifọwọyi.
+__label__yo Mo fẹ san omi fun ile mi.
+__label__yo Fipamọ ₦2000 fun ọsẹ yi.
+__label__yo Fi ₦5000 kun akanti mi.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ran ₦1000 si onibara mi ni Abeokuta.
+__label__yo Mo fẹ san intanẹẹti fun ile mi.
+__label__yo Ṣe iranṣẹ owo fun arabinrin mi ni Ogbomoso.
+__label__yo Fi ₦500 pamọ fun mi loni.
+__label__yo Ṣe iranṣẹ owo ₦500 si Bola ni Akure.
+__label__yo Fi ₦10000 kun akanti mi.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Fipamọ ₦10000 fun ọsẹ yi.
+__label__yo Fi ₦5000 pamọ laifọwọyi.
+__label__yo Ra 1GB data fun laini MTN.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Ṣe o le ran mi ₦10000 fun owo osu.
+__label__yo Ṣe o le ran mi ₦500?
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦2000.
+__label__yo Mo fẹ sanwo fun ile-iwe.
+__label__yo Ṣe iranṣẹ owo fun arako mi ni Ibadan.
+__label__yo Ran ₦500 si onibara mi ni Ogbomoso.
+__label__yo Ṣayẹwo iwọntunwọnsi mi bayi.
+__label__yo Fọwọsi isanwo fun ina.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Mo fẹ sanwo fun omi.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Ṣayẹwo iwọntunwọnsi mi bayi.
+__label__yo Mo fẹ sanwo fun ina pẹlu ₦1000.
+__label__yo Ṣe mi ni iranti lati san omi ni ọla.
+__label__yo Jọwọ ran owo ₦10000 si arabinrin mi.
+__label__yo Mo fẹ sanwo fun ile-iwe pẹlu ₦5000.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Mo fẹ san ile-iwe fun ile mi.
+__label__yo Ṣe o le ran mi ₦2000 fun owo osu.
+__label__yo Fipamọ ₦500 fun ọsẹ yi.
+__label__yo Ṣe o le ran mi ₦500?
+__label__yo Ra data 1GB fun Airtel.
+__label__yo Ṣayẹwo iwọntunwọnsi mi bayi.
+__label__yo Mo fẹ sanwo fun ina pẹlu ₦2000.
+__label__yo Ṣeto ipamọ ₦1000 fun gbogbo Ọjọ́ Monday.
+__label__yo Jọwọ ran owo ₦500 si baba mi.
+__label__yo Ṣe o le ran mi ₦500 fun owo osu.
+__label__yo Fi ₦500 pamọ fun mi loni.
+__label__yo Ra ₦500 data fun laini MTN mi.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Ran ₦10000 si onibara mi ni Abeokuta.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Mo fẹ sanwo fun intanẹẹti pẹlu ₦5000.
+__label__yo Mo fẹ sanwo fun ina.
+__label__yo Sanwo ₦3000 fun DSTV.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Ṣeto ipamọ ₦200 fun gbogbo Ọjọ́ Friday.
+__label__yo Ṣe iranṣẹ owo ₦2000 si Sade ni Akure.
+__label__yo Fi ₦1000 pamọ fun mi loni.
+__label__yo Fi ₦3000 pamọ laifọwọyi.
+__label__yo Fi ₦3000 kun akanti mi.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ṣe o le fi ₦3000 kun owo ipamọ mi?
+__label__yo Ṣe o le ran mi ₦3000 fun owo osu.
+__label__yo Mo fẹ san omi fun ile mi.
+__label__yo Mo fẹ yọ ₦3000 kuro ninu akanti mi.
+__label__yo Jọwọ ran owo ₦10000 si baba mi.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Fi ₦3000 pamọ fun mi loni.
+__label__yo Ṣeto ipamọ ₦200 fun gbogbo ọsẹ kọọkan.
+__label__yo Mo fẹ sanwo fun ile-iwe.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦500.
+__label__yo Jọwọ ran owo ₦3000 si baba mi.
+__label__yo Fipamọ ₦500 fun ọsẹ yi.
+__label__yo Ṣe o le ran mi ₦500?
+__label__yo Ṣe o le ran mi ₦10000?
+__label__yo Mo fẹ fi ₦3000 pamọ sinu akanti ifowopamọ mi.
+__label__yo Fọwọsi isanwo fun ina.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Fi ₦500 pamọ fun mi loni.
+__label__yo Mo fẹ yọ ₦2000 kuro ninu akanti mi.
+__label__yo Ran ₦10000 lọ si Amina bayi.
+__label__yo Ran ₦500 lọ si akanti iṣowo mi.
+__label__yo Fi ₦10000 pamọ laifọwọyi.
+__label__yo Mo fẹ san ile-iwe fun ile mi.
+__label__yo Ran ₦1000 lọ si akanti iṣowo mi.
+__label__yo Jọwọ ran owo ₦3000 si arako mi.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Ṣe mi ni iranti lati san ile-iwe ni ọla.
+__label__yo Ṣe o le fi ₦5000 kun owo ipamọ mi?
+__label__yo Ran ₦2000 si onibara mi ni Ogbomoso.
+__label__yo Fi ₦2000 pamọ laifọwọyi.
+__label__yo Ra data 500MB fun 9mobile.
+__label__yo Mo fẹ fi ₦500 pamọ sinu akanti ifowopamọ mi.
+__label__yo Jọwọ ran owo ₦2000 si aya mi.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Ra 1GB data fun laini Glo.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Ṣe iranṣẹ owo fun arako mi ni Ibadan.
+__label__yo Ṣeto ipamọ ₦500 fun gbogbo ọsẹ kọọkan.
+__label__yo Ran ₦2000 lọ si akanti iṣowo mi.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Ra 2GB data fun laini 9mobile.
+__label__yo Ran ₦200 si onibara mi ni Abeokuta.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Mo fẹ yọ ₦200 kuro ninu akanti mi.
+__label__yo Sanwo ₦500 fun intanẹẹti.
+__label__yo Ṣeto ipamọ ₦2000 fun gbogbo ọsẹ kọọkan.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦3000.
+__label__yo Ṣe o le ran mi ₦200 fun owo osu.
+__label__yo Mo fẹ san ile-iwe fun ile mi.
+__label__yo Jọwọ ran owo ₦10000 si arako mi.
+__label__yo Fi ₦10000 kun akanti mi.
+__label__yo Ṣe mi ni iranti lati san DSTV ni ọla.
+__label__yo Mo fẹ yọ ₦3000 kuro ninu akanti mi.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦3000.
+__label__yo Ṣe o le ran mi ₦1000?
+__label__yo Mo fẹ sanwo fun ile-iwe pẹlu ₦10000.
+__label__yo Ṣe iranṣẹ owo ₦5000 si Tunde ni Ogbomoso.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Ra data 2GB fun MTN.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Ṣe alaye awọn iṣowo to ṣẹṣẹ waye.
+__label__yo Fi ₦200 pamọ laifọwọyi.
+__label__yo Ra ₦10000 data fun laini 9mobile mi.
+__label__yo Fipamọ ₦3000 fun ọsẹ yi.
+__label__yo Mo fẹ sanwo fun DSTV.
+__label__yo Mo fẹ sanwo fun intanẹẹti pẹlu ₦500.
+__label__yo Mo fẹ san omi fun ile mi.
+__label__yo Mo fẹ sanwo fun omi pẹlu ₦500.
+__label__yo Fipamọ ₦2000 fun ọsẹ yi.
+__label__yo Fọwọsi isanwo fun omi.
+__label__yo Ra data 1GB fun Airtel.
+__label__yo Ṣayẹwo iwọntunwọnsi mi bayi.
+__label__yo Ran ₦2000 si onibara mi ni Akure.
+__label__yo Ra ₦3000 airtime fun laini Glo mi.
+__label__yo Ra data 500MB fun Airtel.
+__label__yo Ran ₦2000 lọ si Kunle bayi.
+__label__yo Mo fẹ san ile-iwe fun ile mi.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦500.
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Ṣayẹwo iwọntunwọnsi mi bayi.
+__label__yo Ṣe o le ran mi ₦500?
+__label__yo Ṣe iranṣẹ owo fun aya mi ni Lagos.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Sanwo ₦2000 fun intanẹẹti.
+__label__yo Fi ₦500 pamọ laifọwọyi.
+__label__yo Fi ₦200 pamọ fun mi loni.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Mo fẹ fi ₦1000 pamọ sinu akanti ifowopamọ mi.
+__label__yo Ran ₦2000 si onibara mi ni Ogbomoso.
+__label__yo Ra ₦1000 data fun laini Airtel mi.
+__label__yo Ṣe iranṣẹ owo ₦500 si Femi ni Ogbomoso.
+__label__yo Ra 500MB data fun laini Glo.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Mo fẹ bẹrẹ ipamọ tuntun pẹlu ₦200.
+__label__yo Mo fẹ fi ₦10000 pamọ sinu akanti ifowopamọ mi.
+__label__yo Ṣe o le ran mi ₦5000?
+__label__yo Ṣayẹwo owo ti mo ni bayi.
+__label__yo Sanwo ₦5000 fun intanẹẹti.
+__label__yo Ṣe iranṣẹ owo ₦3000 si Amina ni Ibadan.
+__label__yo Fi ₦10000 pamọ fun mi loni.
+__label__yo Ṣe mi ni iranti lati san ile-iwe ni ọla.
+__label__yo Jọwọ ran owo ₦1000 si ọrẹ mi.
+__label__yo Mo fẹ yọ ₦10000 kuro ninu akanti mi.
+__label__yo Ṣayẹwo iye to ku ninu akanti mi.
+__label__yo Ran ₦3000 lọ si akanti iṣowo mi.
+__label__yo Fipamọ ₦200 fun ọsẹ yi.
+__label__yo Fi ₦10000 pamọ laifọwọyi.
+
+__label__pcm I wan transfer five thousand naira give my guy.
+__label__pcm Abeg, check wetin remain for my account now.
+__label__pcm Shey you fit recharge my line with one thousand naira?
+__label__pcm Make una pay my prepaid light bill now now.
+__label__pcm I wan start small small money saving plan today.
+__label__pcm Wetin be the best way to budget my salary money?
+__label__pcm How far, good morning, wetin be the tori?
+__label__pcm Send ten thousand to my pikin account sharp sharp.
+__label__pcm Biko, recharge my phone with two hundred naira data.
+__label__pcm I get DSTV bill wey I wan pay.
+__label__pcm How much money I don save finish so far?
+__label__pcm Abeg, explain compound interest for me in pidgin.
+__label__pcm Thank you, the transfer enter fast fast.
+__label__pcm I wan send money to person wey I never send to before.
+__label__pcm Make una buy me five gigabytes of data.
+__label__pcm I wan settle the water bill before closing time.
+__label__pcm Set one goal make I save fifty thousand naira for house rent.
+__label__pcm Give me quick financial sense wey I go use this week.
+__label__pcm Shey this service dey work for midnight too?
+__label__pcm Transfer eight hundred naira to the account number 0123456789.
+__label__pcm I wan top up my phone credit.
+__label__pcm Pay for my network provider bill now.
+__label__pcm I wan comot some of the money wey I save.
+__label__pcm How I go use the money tracking app?
+__label__pcm E be like say my transaction get wahala, abeg check.
+__label__pcm Send two thousand five hundred naira to my mama.
+__label__pcm I need Glo airtime of two hundred naira value.
+__label__pcm Shey you fit pay my school fees for me?
+__label__pcm Start small savings of five hundred naira everyday.
+__label__pcm Wetin be the difference between debt and grant money?
+__label__pcm Wetin be the dollar rate for today?
+__label__pcm I wan do money transfer now.
+__label__pcm Buy small data bundle for me, abeg.
+__label__pcm Pay for the person wey dey carry my dustbin.
+__label__pcm Show me the total money wey I don save.
+__label__pcm Wetin I suppose teach my children about money matter?
+__label__pcm Good afternoon, I need your help small.
+__label__pcm Transfer fifteen thousand to my main bank account.
+__label__pcm Give me 1GB of data on my MTN sim.
+__label__pcm I wan pay my GoTV bill for the month.
+__label__pcm Deposit two hundred naira inside my savings pot.
+__label__pcm Explain wetin dem dey call patient waiting for result (delayed gratification).
+__label__pcm Where the bank office wey dey my side?
+__label__pcm Send three thousand five hundred to account wey end with 9988.
+__label__pcm My airtime purchase work, thanks.
+__label__pcm I get hospital bill wey I need to clear.
+__label__pcm Wetin be the correct target to save for my small business?
+__label__pcm I wan stop the money wey dey comot from my account daily.
+__label__pcm I don finish with the chat, make I dey go.
+__label__pcm Abeg, send four thousand naira give my husband.
+__label__pcm Shey you fit recharge my Airtel sim?
+__label__pcm Pay all my utility bills for this month.
+__label__pcm How I go unlock my money once I reach my target?
+__label__pcm Wetin be the good things about saving small small?
+__label__pcm Abeg, tell me wetin you talk before.
+__label__pcm I wan know the money wey dey my account.
+__label__pcm I need call credit now now.
+__label__pcm Shey you fit pay my DStv subscription?
+__label__pcm Send five thousand naira give my paddy.
+__label__pcm I wan make I dey save money.
+__label__pcm Teach me small small about how money works.
+__label__pcm Shey the mobile app dey work well?
+__label__pcm Can you help me fix the transfer issue?
+__label__pcm Buy me data for browsing.
+__label__pcm I wan pay some kind bill.
+__label__pcm How I go take start my savings journey?
+__label__pcm Wetin be credit score and why e matter?
+__label__pcm Who be the person wey dey talk to me?
+__label__pcm I need advice on my money situation.
+__label__pcm Recharge seven hundred naira for me.
+__label__pcm Pay the money for my house rent.
+__label__pcm I wan hide two hundred naira for future use.
+__label__pcm Teach me how to invest my money.
+__label__pcm Wetin be your name and function?
+__label__pcm Abeg, do the money transfer.
+__label__pcm I need to buy internet data now.
+__label__pcm Pay the money for my son school fees.
+__label__pcm Show me how my savings don grow.
+__label__pcm How I go take make my small business money plenty?
+__label__pcm I like the way you serve me, I dey happy.
+__label__pcm Transfer nine hundred naira to my wallet.
+__label__pcm Buy airtime for the number wey I dey call you with.
+__label__pcm Pay the NEPA (electricity) bill, abeg.
+__label__pcm I wan contribute money to my thrift saving.
+__label__pcm Tell me secret about how rich people dey make money.
+__label__pcm Shey you fit help me solve this problem today?
+__label__pcm Abeg, transfer six thousand naira.
+__label__pcm I need airtime quick quick.
+__label__pcm Pay the cooking gas bill.
+__label__pcm Save fifty naira inside my account for me.
+__label__pcm Wetin be the meaning of ROI for business?
+__label__pcm E jor, thank you.
+__label__pcm I wan transfer two thousand five hundred to my brother.
+__label__pcm Wetin be the limit for transfer today?
+__label__pcm Abeg, block my debit card temporarily.
+__label__pcm Transfer fifty naira to my sister mobile money.
+__label__pcm I wan start saving for emergency use now now.
+__label__pcm Give me advice on how to pay different debts.
+__label__pcm Shey the online chat dey safe to use?
+__label__pcm Can you help me pay small business supplier?
+__label__pcm Buy me a data plan wey go finish quick.
+__label__pcm I wan pay my yearly house insurance fee.
+__label__pcm How I go take change the maximum money I fit spend on my card?
+__label__pcm Wetin be the tax issue when I wan sell my shares?
+__label__pcm Who be my dedicated person for financial advice?
+__label__pcm I need help because I forget my password.
+__label__pcm Recharge my airtime with fifty naira.
+__label__pcm Pay the bill for my travel insurance.
+__label__pcm I wan hide one thousand naira for future something.
+__label__pcm Teach me how to read company financial paper.
+__label__pcm Wetin be the number for customer support?
+__label__pcm Abeg, do the money transfer now.
+__label__pcm I need to buy data for my internet router.
+__label__pcm Pay the money for my university school fees.
+__label__pcm Show me the graph of my money over time.
+__label__pcm How I go take save money when I travel abroad?
+__label__pcm Thank you for the good information.
+__label__pcm Transfer sixty-five thousand naira.
+__label__pcm Buy airtime for the company phone.
+__label__pcm Pay the yearly fee for my website host.
+__label__pcm I wan start contributing to my personal retirement savings.
+__label__pcm Tell me one serious key to invest money for long time.
+__label__pcm Shey you fit help me check my bank statement?
+__label__pcm Abeg, transfer one thousand eight hundred naira to my dollar account.
+__label__pcm I need data bundle wey go last for two days.
+__label__pcm Pay for my car papers renewal.
+__label__pcm Save five hundred naira for my Christmas holiday.
+__label__pcm Wetin be the meaning of profit wey you get from selling something?
+__label__pcm Make I dey go, thank you.
+__label__pcm I wan send three hundred and fifty naira to my aunty.
+__label__pcm Wetin be the money limit for online transfer?
+__label__pcm Can you help me open a savings account with my wife?
+__label__pcm Transfer five hundred to my mama new account.
+__label__pcm I wan put big money inside my savings for long time.
+__label__pcm I need advice on how to pay all my debts from different places.
+__label__pcm Shey the bank dey close today because of holiday?
+__label__pcm Can you do payment to person for another country?
+__label__pcm Buy me data bundle wey go last for three days.
+__label__pcm I wan pay my house rent automatically every month.
+__label__pcm How I go take change the name of my saving target?
+__label__pcm Why e important to get money for emergency?
+__label__pcm Which computer system una dey use for this chat?
+__label__pcm I need help because my security code don expire.
+__label__pcm Recharge my phone with one naira credit.
+__label__pcm Pay the money for my community library card.
+__label__pcm I wan move fifty naira to the money for unexpected things.
+__label__pcm Teach me how to buy my first company share.
+__label__pcm Wetin be the correct website address?
+__label__pcm Abeg, make the transfer happen.
+__label__pcm I need to buy data for my laptop modem.
+__label__pcm Pay the hospital money for my teeth.
+__label__pcm Show me if my money don increase or reduce this month.
+__label__pcm How I go take save money when I dey buy clothes?
+__label__pcm I dey very happy for the help wey you give me.
+__label__pcm Transfer fifty-five naira.
+__label__pcm Buy airtime for the last person wey I call.
+__label__pcm Pay the person wey dey manage my house.
+__label__pcm I wan set up automatic savings where e go take small money from my change.
+__label__pcm Give me one small tip to reduce my light bill for house.
+__label__pcm Wetin be the plan if person wan report fraud?
+__label__pcm Shey you fit transfer nine hundred USD for me now?
+__label__pcm I need plenty data plan now now.
+__label__pcm Pay the money for my passport renewal.
+__label__pcm Save fifteen naira every week.
+__label__pcm Wetin be the meaning of S.M.A.R.T. for setting money goal?
+__label__pcm Thank you, I don finish wetin I wan do.
+__label__pcm I need to transfer seven hundred and fifty naira for my school fees.
+__label__pcm Wetin be the total extra money I don make from my savings?
+__label__pcm Can you help me apply for the company credit card?
+__label__pcm Transfer eight naira eighty-eight kobo to the people wey dey beg.
+__label__pcm I wan start saving money for unexpected things immediately.
+__label__pcm I need advice on how to invest the small money wey dem give me.
+__label__pcm Shey the money transfer wey I do dey safe?
+__label__pcm Can you send money to account for another bank?
+__label__pcm Buy me data and call credit bundle wey go last for one week.
+__label__pcm I wan pay my yearly professional work money.
+__label__pcm How I go take see wetin I spend money on for a long time?
+__label__pcm Wetin be the biggest mistakes people dey make with their money?
+__label__pcm Who make this chatbot wey dey talk to me?
+__label__pcm I need help because my identity verification no gree work.
+__label__pcm Recharge my phone with ten naira airtime.
+__label__pcm Pay the subscription fee for the software wey I dey use.
+__label__pcm I wan put two hundred naira for the money for new furniture.
+__label__pcm Explain wetin dem dey call 'time value of money'.
+__label__pcm How I go take talk to a real person fast fast?
+__label__pcm Abeg, do the transfer for the amount wey I ask for.
+__label__pcm I need to buy data plan for outside my country travel.
+__label__pcm Pay the bill for my lawyer.
+__label__pcm Show me the list of the bills wey dey comot every time.
+__label__pcm How I go save money when I dey book hotel and transport?
+__label__pcm I dey very happy with your service.
+__label__pcm Transfer two hundred and fifty naira.
+__label__pcm Buy airtime for my partner's phone.
+__label__pcm Pay all the utility bills finish.
+__label__pcm I wan set up automatic money transfer between my two accounts.
+__label__pcm Tell me one way to get cheap car insurance.
+__label__pcm Can you help me report problem with the app?
+__label__pcm Abeg, transfer four thousand five hundred to my main savings account.
+__label__pcm I need calling credit, no be too much.
+__label__pcm Pay the money for my Netflix subscription.
+__label__pcm Save one hundred naira anytime I spend money five times.
+__label__pcm Wetin be the meaning of checking my investment again?
+__label__pcm Thanks for all the help today.
+__label__pcm I need to transfer ten naira to my fun money.
+__label__pcm Wetin be the charges for starting a new savings target?
+__label__pcm Can you help me cancel a payment wey dey go?
+__label__pcm Transfer one naira as example transaction.
+__label__pcm I wan start saving to buy big something.
+__label__pcm I need advice on how to invest small money wey I inherit.
+__label__pcm Shey your mobile app go work for my phone type?
+__label__pcm Can you pay for the small small shop wey I buy from online?
+__label__pcm Buy me data plan wey go finish for one day.
+__label__pcm I wan pay all the tax wey I suppose pay for my property.
+__label__pcm How I go take clear the old budget history?
+__label__pcm Wetin be the secret to no need to work again (financial independence)?
+__label__pcm Wetin be your address?
+__label__pcm I need help because my account no dey work.
+__label__pcm Recharge my phone with twenty-five naira.
+__label__pcm Pay the money for my rental house maintenance.
+__label__pcm I wan put fifty naira every week for my retirement.
+__label__pcm Teach me how to guess money wey go come in future (forecasting).
+__label__pcm Where I go see the list of holidays for the bank?
+__label__pcm Abeg, do the transfer of money now.
+__label__pcm I need to buy data plan for my computer.
+__label__pcm Pay the cost for my hospital bill.
+__label__pcm Show me the money wey I get now for all my accounts.
+__label__pcm How I go take save money when I dey buy food?
+__label__pcm I dey very happy for your help.
+__label__pcm Transfer two thousand five hundred dollars.
+__label__pcm Buy airtime for my children phone.
+__label__pcm Pay the money for my school accommodation.
+__label__pcm I wan set up savings plan for my education.
+__label__pcm Give me tip on how to save money for clothes.
+__label__pcm Can you help me fix the issue with my card machine?
+__label__pcm Abeg, transfer sixty USD to my friend PayPal.
+__label__pcm I need plenty data plan for the weekend.
+__label__pcm Pay the fee for my professional work group.
+__label__pcm Save twenty naira every Monday.
+__label__pcm Wetin be liquidity ratio for business?
+__label__pcm I don finish, thank you.
+__label__pcm I need to transfer fifty naira for my gym payment.
+__label__pcm Wetin be the things dem dey ask for to open joint account?
+__label__pcm Can you block all transfer to outside my country?
+__label__pcm Transfer seven naira fifty kobo to the delivery person.
+__label__pcm I wan create savings target for enjoyment money.
+__label__pcm I need advice on how to manage my money when I dey work freelance.
+__label__pcm Shey e get fee for using this chat?
+__label__pcm Can you pay the online shop bill for me?
+__label__pcm Buy me data plan wey go last for one hour.
+__label__pcm I wan pay my yearly website cost.
+__label__pcm How I go take reset all my budget settings?
+__label__pcm Wetin be the main thing to be financially free?
+__label__pcm Tell me the name of the chatbot model.
+__label__pcm I need help with the two-step login process.
+__label__pcm Recharge my phone with fifty naira airtime.
+__label__pcm Pay the full yearly money for my software.
+__label__pcm I wan put five hundred naira for investment chance wey go come.
+__label__pcm Explain the difference between cash money and profit money.
+__label__pcm How long I go wait for the chat to reply?
+__label__pcm Abeg, do the transfer wey I ask for.
+__label__pcm I need to buy data plan wey go last for one week.
+__label__pcm Pay the money for my pikin private school.
+__label__pcm Show me the money wey I don make from my shares.
+__label__pcm How I go take save money for my phone bill every month?
+__label__pcm I dey happy say you answer me fast fast.
+__label__pcm Transfer one hundred and fifty naira.
+__label__pcm Buy airtime for my old phone number.
+__label__pcm Pay the remaining money for my insurance.
+__label__pcm I wan start saving small small every month for charity.
+__label__pcm Give me one tip on how to reduce my house heating bill.
+__label__pcm Wetin be the bank rule for keeping my information safe?
+__label__pcm Shey you fit transfer three hundred and fifty EUR to my Euro account?
+__label__pcm I need small call credit now.
+__label__pcm Pay the money for my driving license renewal.
+__label__pcm Save twenty-five naira inside my house fixing money.
+__label__pcm Wetin be the meaning of capital expenditure for business?
+__label__pcm Bye bye, and thanks for the service.
+__label__pcm I need to transfer twenty-five naira to my fun money pot.
+__label__pcm Wetin be the limit for sending money online?
+__label__pcm Can you help me close my small savings account?
+__label__pcm Transfer two hundred naira to my main checking account.
+__label__pcm I wan start saving money for my children future.
+__label__pcm I need advice on how to do good budget planning.
+__label__pcm Shey the interest rate go change or e dey constant?
+__label__pcm Can you pay many people at once for me?
+__label__pcm Buy me data plan wey be 4G network only.
+__label__pcm I wan pay the remaining money for my loan.
+__label__pcm How I go set alert when my money reduce for account?
+__label__pcm Wetin be the work of person wey dey plan your money?
+__label__pcm Where una get your bank branches?
+__label__pcm I need help to get my account back.
+__label__pcm Recharge my phone with two naira airtime.
+__label__pcm Pay the money for my online marketing.
+__label__pcm I wan keep five hundred naira for future learning.
+__label__pcm Teach me how to check the risk of my investment.
+__label__pcm Wetin be the bank address for mailing?
+__label__pcm Abeg, finish the money transfer.
+__label__pcm I need to buy data plan for my small flying camera (drone).
+__label__pcm Pay the bill for my monthly transport ticket.
+__label__pcm Show me the money I don gain from my investments.
+__label__pcm How I go take save money when I dey chop outside?
+__label__pcm Your help sweet me well well.
+__label__pcm Transfer eighty-eight naira.
+__label__pcm Buy airtime for my emergency contact number.
+__label__pcm Pay the yearly bill for my security system.
+__label__pcm I wan set up small money transfer to my friend every month.
+__label__pcm Tell me one way to talk down price when I dey buy something.
+__label__pcm Can you help me understand my tax document?
+__label__pcm Abeg, transfer seven thousand five hundred to my foreign account.
+__label__pcm I need data and airtime mix wey go last for one day.
+__label__pcm Pay the fee for my professional certificate.
+__label__pcm Save ninety-nine naira every single month.
+__label__pcm Wetin be the meaning of 'risk-free rate' in finance?
+__label__pcm I must leave now, thank you.
+__label__pcm I need to transfer four hundred naira for market shopping.
+__label__pcm Wetin be the charges for transfer to another country?
+__label__pcm Can you help me lock my account temporarily?
+__label__pcm Transfer one thousand naira to my new account wey I just open.
+__label__pcm I wan set up savings plan to buy new gadget.
+__label__pcm I need advice on how to manage money for a small business.
+__label__pcm Shey the bank get backing from government?
+__label__pcm Can you pay person for another country?
+__label__pcm Buy me data bundle wey go work for evening only.
+__label__pcm I wan pay my yearly property insurance.
+__label__pcm How I go take get paper wey show the money I don earn?
+__label__pcm Wetin be the difference between wetin I need and wetin I wan?
+__label__pcm Wetin be the latest rating for your customer service?
+__label__pcm I need help because I no fit login after I try many times.
+__label__pcm Recharge my phone with fifty naira call credit.
+__label__pcm Pay the yearly fee for my online storage.
+__label__pcm I wan put two hundred and fifty naira for house repair.
+__label__pcm Explain the difference between paying debt from smallest or biggest first.
+__label__pcm How I go take report serious complaint?
+__label__pcm Abeg, transfer the money to my daughter account.
+__label__pcm I need to buy specific amount of data.
+__label__pcm Pay the monthly money for my software.
+__label__pcm Show me the summary of the money for all my accounts.
+__label__pcm How I go save money to buy big things?
+__label__pcm I dey thank you well well for your help.
+__label__pcm Transfer three thousand naira.
+__label__pcm Buy airtime for my wife phone.
+__label__pcm Pay the remaining balance for my loan.
+__label__pcm I wan start putting money for investment every month.
+__label__pcm Give me one way to save money on light bill.
+__label__pcm Wetin be the steps to open share trading account?
+__label__pcm Can you transfer ninety USD to my friend account?
+__label__pcm I need plenty airtime for international calls.
+__label__pcm Pay the money for my pikin sports club.
+__label__pcm Save three hundred naira for buying chair and table.
+__label__pcm Wetin be the meaning of profit against risk?
+__label__pcm My problem don solve, thank you.
+__label__pcm I need to transfer one thousand naira for down payment.
+__label__pcm Wetin be the charge for getting new debit card?
+__label__pcm Can you help me order new book to write check?
+__label__pcm Transfer one hundred and fifty naira to my savings target.
+__label__pcm I wan add more money to my current savings.
+__label__pcm I need advice on how me and my partner go manage money together.
+__label__pcm Shey the chat platform dey safe and protected?
+__label__pcm Can you pay money to church or mosque organization?
+__label__pcm Buy me two gigabytes data extra.
+__label__pcm I wan pay my monthly house security bill.
+__label__pcm How I go take get the paper for my yearly account summary?
+__label__pcm Wetin be the meaning of 'pay yourself first' for money?
+__label__pcm Who be the main boss for the company?
+__label__pcm I need help because I fear say dem breach my account.
+__label__pcm Recharge my phone with seventy-five naira.
+__label__pcm Pay the complete cost for my plane ticket.
+__label__pcm I wan move two hundred naira from my main account to savings.
+__label__pcm Teach me the first steps to plan my money.
+__label__pcm Wetin be the best way to contact your law department?
+__label__pcm Abeg, start the payment of five hundred naira.
+__label__pcm I need to buy data plan wey go last for one day.
+__label__pcm Pay the money wey remain for my car repair.
+__label__pcm Show me how my savings don change over time.
+__label__pcm How I go take make my tax money plenty?
+__label__pcm I dey very very happy for your help.
+__label__pcm I want to transfer 10000 to my business account.
+__label__pcm Please check my debit card limit.
+__label__pcm Can you buy me airtime for 200 Naira?
+__label__pcm I need to pay for my monthly internet subscription.
+__label__pcm Set up an automatic daily transfer of 500 Naira to savings.
+__label__pcm What is the difference between inflation and deflation?
+__label__pcm I'm having trouble with my mobile bank app.
+__label__pcm Send 5k to the local market vendor.
+__label__pcm I need to purchase a 5GB data plan for my MiFi.
+__label__pcm Pay the bill for my waste collection service.
+__label__pcm Show me a list of all my pending transactions.
+__label__pcm How can I save money on transportation every day?
+__label__pcm That was a very good explanation, thanks.
+__label__pcm Transfer 1,200 Naira for my daughter's upkeep.
+__label__pcm Buy me a week-long unlimited calling bundle.
+__label__pcm I need to pay my landlord for the rent.
+__label__pcm I want to pause my recurring payment to my thrift group.
+__label__pcm What are the best small investment ideas?
+__label__pcm I need to talk to a customer service agent.
+__label__pcm Send 300 Naira to a friend's phone number.
+__label__pcm Recharge my phone with a weekend data plan.
+__label__pcm Pay the fee for my new driver's license.
+__label__pcm How do I withdraw all my money from my fixed deposit?
+__label__pcm Explain the concept of budgeting for irregular expenses.
+__label__pcm I need help with my login details.
+__label__pcm Transfer 20,000 Naira to my foreign currency account.
+__label__pcm Buy me a small airtime top-up urgently.
+__label__pcm Pay the bill for my cable television.
+__label__pcm I want to check the interest rate on my savings.
+__label__pcm Tell me how to choose the right stock to buy.
+__label__pcm Is the bank currently experiencing network issues?
+__label__pcm I need to reverse a wrong transfer I made.
+__label__pcm Recharge my main phone line with the highest credit.
+__label__pcm I want to pay for my son's computer lessons.
+__label__pcm Set a new savings goal of 500k for next year.
+__label__pcm Give me a financial tip for a new business owner.
+__label__pcm Can you show me my credit card statement?
+__label__pcm Transfer 150 naira to the donation account.
+__label__pcm Buy me a data plan that lasts for one month.
+__label__pcm I need to pay my annual professional association fees.
+__label__pcm How can I combine all my accounts for a total view?
+__label__pcm What is the meaning of a loan collateral?
+__label__pcm I want to stop all the alerts on my account.
+__label__pcm Please send 8000 Naira to my cousin's account.
+__label__pcm I need to buy airtime for my work phone.
+__label__pcm Pay the outstanding balance on my equipment loan.
+__label__pcm Deposit 1,000 Naira into my investment fund.
+__label__pcm Explain the difference between shares and bonds.
+__label__pcm What are your customer service hours?
+__label__pcm I want to start a weekly contribution to my thrift.
+__label__pcm Buy me 50 Naira worth of call credit.
+__label__pcm Pay my sister's university fees for this semester.
+__label__pcm Show me my spending on food this month.
+__label__pcm How do I track where all my money goes?
+__label__pcm I need to report a lost or stolen card.
+__label__pcm Transfer 500 Naira to the account ending in 4321.
+__label__pcm Recharge my router with a 10GB data plan.
+__label__pcm I want to pay my monthly security guard bill.
+__label__pcm What is the minimum amount I can transfer?
+__label__pcm I want to change the date of my automated savings.
+__label__pcm Is there a fee for checking my balance?
+__label__pcm Send 700 Naira to a new recipient.
+__label__pcm Buy me a 24-hour data plan.
+__label__pcm I need to pay the bill for my water supply.
+__label__pcm Set up an alert for any transfer above 10k.
+__label__pcm Give me one actionable step to reduce spending.
+__label__pcm Can you help me calculate the tax on my interest?
+__label__pcm Please transfer 3500 Naira to my business partner.
+__label__pcm I need airtime and data combo bundle.
+__label__pcm Pay the bill for my prepaid meter.
+__label__pcm I want to check my account statement from last year.
+__label__pcm Tell me about low-risk investment options.
+__label__pcm I'm having issues making an online purchase.
+__label__pcm Transfer 40,000 Naira for a business invoice.
+__label__pcm Buy me a midnight data bundle.
+__label__pcm I need to pay the cost for my house repairs.
+__label__pcm How do I increase the limit on my transfer amount?
+__label__pcm What is the meaning of working capital?
+__label__pcm I want to make a bulk payment to five people.
+__label__pcm Send 1,500 Naira to my mother-in-law.
+__label__pcm Recharge my second phone line with 300 Naira airtime.
+__label__pcm Pay the invoice for my consulting services.
+__label__pcm I want to stop all future transfers to this account.
+__label__pcm Explain how the stock market works in simple terms.
+__label__pcm I need help resetting my security questions.
+__label__pcm Transfer 9,500 Naira to my investment account.
+__label__pcm Buy me the unlimited data plan.
+__label__pcm I need to pay for my professional certification course.
+__label__pcm Show me how much I spend on transport every week.
+__label__pcm What are the steps to start a side business?
+__label__pcm I want to set up a fixed deposit.
+__label__pcm Please transfer 2,800 Naira to my landlord's account.
+__label__pcm I need to buy data for my tablet.
+__label__pcm Pay the bill for my government land charges.
+__label__pcm Deposit 5,000 Naira into my children's trust fund.
+__label__pcm What is the concept of risk diversification?
+__label__pcm How long does a transfer take to reflect?
+__label__pcm Send 600 Naira to my younger brother.
+__label__pcm Recharge my phone with an hourly data package.
+__label__pcm I want to pay for my online fitness subscription.
+__label__pcm I want to see a detailed report of my monthly budget.
+__label__pcm Give me advice on how to save money on food items.
+__label__pcm I need to report a suspicious transaction.
+__label__pcm Transfer 12,000 Naira to the carpenter's account.
+__label__pcm Buy me a weekend voice and data bundle.
+__label__pcm I need to pay the deposit for a new apartment.
+__label__pcm Set a recurring transfer of 20k to savings every Friday.
+__label__pcm What is the benefit of a high interest savings account?
+__label__pcm I want to confirm the charges on a recent transfer.
+__label__pcm Please send 50,000 Naira to my broker.
+__label__pcm I need to buy airtime for the number ending in 0007.
+__label__pcm Pay the annual fee for my club membership.
+__label__pcm How do I check the status of my loan application?
+__label__pcm Tell me about retirement planning options.
+__label__pcm I'm having difficulty connecting to your service.
+__label__pcm Transfer 300 Naira to my mobile money wallet.
+__label__pcm Buy me a 90-day data bundle.
+__label__pcm I want to pay for my daughter's wedding contribution.
+__label__pcm What is the best way to handle debt collection calls?
+__label__pcm I want to know my total debt profile.
+__label__pcm I need to process a foreign currency exchange.
+__label__pcm Recharge 100 Naira airtime for my mum's phone.
+__label__pcm Pay the bill for my monthly security service.
+__label__pcm Show me how much money I've made from investing.
+__label__pcm How can I track my business expenses separately?
+__label__pcm I want to apply for a mortgage loan.
+__label__pcm Please transfer 7,000 Naira to my business account.
+__label__pcm I need an emergency data top-up now.
+__label__pcm Pay the outstanding fees for my car service.
+__label__pcm Set a daily alert for my checking account balance.
+__label__pcm What is the difference between revenue and profit?
+__label__pcm I want to stop receiving marketing emails.
+__label__pcm Send 200 Naira to my friend for lunch.
+__label__pcm Buy me a call credit top-up for 50 Naira.
+__label__pcm I need to pay my monthly internet subscription for two houses.
+__label__pcm I want to see my spending history by month.
+__label__pcm Give me one tip for saving on electricity usage.
+__label__pcm I need assistance with a failed automated payment.
+__label__pcm Transfer 1,000 Naira to the account used for savings goals.
+__label__pcm Recharge my tablet with 3GB of data.
+__label__pcm Pay the cost for my online course registration.
+__label__pcm How do I find out my account number?
+__label__pcm What are the risks of investing in cryptocurrencies?
+__label__pcm I want to block all transactions above 50k.
+__label__pcm Please send 1,800 Naira to my account for tax purposes.
+__label__pcm I need airtime for a specific network provider.
+__label__pcm Pay the bill for my office supplies.
+__label__pcm I want to adjust the percentage of my automated savings.
+__label__pcm Explain the concept of compound interest for beginners.
+__label__pcm Where can I find the terms and conditions for transfers?
+__label__pcm I want to start saving for my vacation next year.
+__label__pcm Buy me a 4G data booster.
+__label__pcm I need to pay my local council fees.
+__label__pcm Show me my detailed investment portfolio performance.
+__label__pcm How can I protect my money from inflation?
+__label__pcm I need to activate my new debit card.
+__label__pcm Transfer 500 Naira to a new vendor.
+__label__pcm Recharge my phone with 150 Naira airtime.
+__label__pcm Pay the cost of a plane ticket for my trip.
+__label__pcm Set a recurring savings transfer of 5k every week.
+__label__pcm What are the major tax dates I should remember?
+__label__pcm I want to apply for a small personal loan.
+__label__pcm Send 4,500 Naira to the account ending in 0111.
+__label__pcm Buy me an unlimited voice and data plan.
+__label__pcm I need to pay the fees for my professional body.
+__label__pcm How do I report a missing credit on my account?
+__label__pcm Tell me the importance of an insurance policy.
+__label__pcm Is there a maximum number of transfers per day?
+__label__pcm Please transfer 2,000 Naira to my emergency fund.
+__label__pcm I need to buy data for my neighbor's phone.
+__label__pcm Pay the invoice for my building materials.
+__label__pcm I want to check my account statement for last month.
+__label__pcm What is the safest place to keep a large sum of money?
+__label__pcm I need help with my debit card not working.
+__label__pcm Transfer 10,000 Naira to my offshore account.
+__label__pcm Recharge my phone with a weekend voice bundle.
+__label__pcm I want to pay my monthly newspaper subscription.
+__label__pcm Show me a summary of my account history for the year.
+__label__pcm How can I save money on my monthly phone plan?
+__label__pcm I want to increase my current account limit.
+__label__pcm Send 850 Naira to a colleague for dinner.
+__label__pcm Buy me a daily unlimited calling plan.
+__label__pcm I need to pay the fees for my driver's license renewal.
+__label__pcm Set an automatic savings contribution of 500 Naira on Fridays.
+__label__pcm Give me a tip on how to save money on transport.
+__label__pcm I need to confirm if a transfer was successful.
+__label__pcm Transfer 30,000 Naira to my main savings pot.
+__label__pcm I need to purchase a 2GB data plan for two weeks.
+__label__pcm Pay the electricity bill for my shop.
+__label__pcm How do I get an official letter of account confirmation?
+__label__pcm What is the concept of short selling in trading?
+__label__pcm I want to delete my current savings goal.
+__label__pcm Please send 1,100 Naira to my child's account.
+__label__pcm I need airtime worth 20 Naira.
+__label__pcm Pay the invoice for my professional photographer.
+__label__pcm I want to see the total interest I have paid on my loans.
+__label__pcm Tell me about ethical investment funds.
+__label__pcm I need assistance with a technical error.
+__label__pcm Transfer 400 Naira to the account ending in 5555.
+__label__pcm Buy me a 7-day data plan with night bonus.
+__label__pcm I need to pay for my medical test results.
+__label__pcm Set a balance alert for when my account is below 2k.
+__label__pcm What is the difference between a mutual fund and an ETF?
+__label__pcm I want to change my phone number linked to my account.
+__label__pcm Send 900 Naira to my landlord for a late fee.
+__label__pcm Recharge my data modem with 50GB of data.
+__label__pcm I want to pay the registration fee for my new car.
+__label__pcm Show me my most frequent transactions.
+__label__pcm How can I budget for a major expense like a wedding?
+__label__pcm I need to report a transfer that did not go through.
+__label__pcm Transfer 5,500 Naira to my project manager.
+__label__pcm Buy me a 3-month voice and data plan.
+__label__pcm I want to pay my monthly rent and utility fees together.
+__label__pcm How do I transfer money without the recipient's bank account number?
+__label__pcm What are the penalties for early withdrawal from savings?
+__label__pcm I want to apply for an overdraft facility.
+__label__pcm Please send 18,000 Naira to my sister's overseas account.
+__label__pcm I need airtime for a friend's phone.
+__label__pcm Pay the bill for my monthly transportation pass.
+__label__pcm I want to check my account balance on my credit card.
+__label__pcm Tell me about the benefits of diversifying my investments.
+__label__pcm Is there a delay in international transfers right now?
+__label__pcm I want to know the exchange rate for EUR to NGN.
+__label__pcm Recharge my phone with 100 Naira call credit.
+__label__pcm Pay the full amount of my current credit card statement.
+__label__pcm Show me the yearly summary of my deposits and withdrawals.
+__label__pcm How can I improve my financial habits?
+__label__pcm I need help with my account security settings.
+__label__pcm Transfer 1,500 Naira to my savings goal for a new phone.
+__label__pcm Buy me a small data bundle for my smart watch.
+__label__pcm I want to pay my annual health insurance premium.
+__label__pcm Set a recurring transfer of 1,000 Naira on the 15th of every month.
+__label__pcm Give me a quick tip on saving money on shopping.
+__label__pcm I need to find the transaction code for my last transfer.
+__label__pcm Transfer 250 Naira to the account used for charity.
+__label__pcm I need a 1GB data plan urgently.
+__label__pcm Pay the bill for my subscription to a learning platform.
+__label__pcm How do I get an updated account statement?
+__label__pcm What is the concept of passive income in finance?
+__label__pcm I want to block my card for online transactions only.
+__label__pcm Please send 6,000 Naira to my cousin's business account.
+__label__pcm I need to buy airtime for my landline phone.
+__label__pcm Pay the fee for my professional license renewal.
+__label__pcm Deposit 200 Naira into my joint account.
+__label__pcm Explain what a balance sheet is for a small business.
+__label__pcm What are the limits on my daily transfers?
+__label__pcm I want to set up automatic payment for my mortgage.
+__label__pcm Buy me an emergency airtime top-up.
+__label__pcm I need to pay the remaining balance on my loan.
+__label__pcm Show me a breakdown of my expenses by week.
+__label__pcm How can I save money on energy bills?
+__label__pcm I am satisfied with the service provided.
+__label__pcm Transfer 100 Naira for transport fare.
+__label__pcm Recharge my phone with 50 Naira data.
+__label__pcm Pay the bill for my monthly gym membership.
+__label__pcm What is the difference between a savings account and a checking account?
+__label__pcm I want to withdraw my money from my micro-savings.
+__label__pcm Can you help me find a specific transaction date?
+__label__pcm Transfer 750 Naira to the church building fund.
+__label__pcm I need a combined data and airtime plan.
+__label__pcm Pay the fees for my children's summer lessons.
+__label__pcm Set up a notification for my salary credit alert.
+__label__pcm What is the importance of having multiple income streams?
+__label__pcm I need to change my transfer password.
+__label__pcm Send 3,300 Naira to my furniture vendor.
+__label__pcm Buy me a social media data plan.
+__label__pcm I want to pay my semi-annual property tax.
+__label__pcm How do I categorize a mixed transaction?
+__label__pcm Tell me about government bonds as an investment.
+__label__pcm I want to increase my daily spending limit.
+__label__pcm Please transfer 1,500 Naira to my investment account.
+__label__pcm I need airtime for a new phone number.
+__label__pcm Pay the cost for my wedding photography.
+__label__pcm I want to see the total money I have in all my accounts.
+__label__pcm How can I save money when buying gadgets?
+__label__pcm I need to report a failed withdrawal at the ATM.
+__label__pcm Transfer 20,000 Naira to my stock trading account.
+__label__pcm Buy me a one-year data plan.
+__label__pcm I want to pay my annual professional insurance.
+__label__pcm Set a savings target of 1 million Naira by December.
+__label__pcm Give me a tip on how to handle high inflation.
+__label__pcm I want to check my account history for the last three years.
+__label__pcm Please send 400 Naira to the local vendor's account.
+__label__pcm I need a night data plan for my studies.
+__label__pcm Pay the outstanding balance on my equipment lease.
+__label__pcm I want to pause my weekly automated transfer.
+__label__pcm Explain the difference between credit and debit.
+__label__pcm What is the routing number for this bank?
+__label__pcm I need to set up a fixed monthly budget.
+__label__pcm Transfer 50 Naira to my personal savings.
+__label__pcm Buy me a 100 Naira airtime top-up.
+__label__pcm Pay the bill for my monthly house cleaning service.
+__label__pcm Show me a summary of my spending on utilities.
+__label__pcm How do I access my annual financial report?
+__label__pcm I need help with my card PIN reset.
+__label__pcm Transfer 6,000 Naira to the account for my new car deposit.
+__label__pcm I need data for my business phone.
+__label__pcm Pay the fees for my professional training workshop.
+__label__pcm I want to track my spending on online shopping.
+__label__pcm Tell me the best time to invest in the stock market.
+__label__pcm I want to cancel a scheduled payment.
+__label__pcm Send 700 Naira to my colleague who paid for lunch.
+__label__pcm Recharge my tablet with 1GB emergency data.
+__label__pcm I need to pay the bill for my satellite dish installation.
+__label__pcm Set an automatic savings contribution of 2k every day.
+__label__pcm What is the meaning of passive investment?
+__label__pcm I want to confirm the amount for my loan repayment.
+__label__pcm Please transfer 800 Naira to my wallet.
+__label__pcm I need to buy airtime and data for my sister.
+__label__pcm Pay the outstanding bill for my phone contract.
+__label__pcm I want to see my spending categorized by merchant.
+__label__pcm How can I save money on travel tickets?
+__label__pcm I need to report a transfer that has not arrived.
+__label__pcm Transfer 500 Naira to a friend's mobile money account.
+__label__pcm Buy me a 50 Naira data bundle for social media.
+__label__pcm I want to pay my monthly house rent fee.
+__label__pcm What is the fee for an international transfer?
+__label__pcm I want to set a fixed deposit for six months.
+__label__pcm Is there a penalty for not meeting my savings goal?
+__label__pcm Send 1,000 Naira to my tailor for clothing cost.
+__label__pcm Recharge my wife's phone with 500 Naira airtime.
+__label__pcm I need to pay the annual fee for my property management service.
+__label__pcm Show me my total money in all savings goals.
+__label__pcm How do I get an official tax receipt?
+__label__pcm I need help with accessing the investment platform.
+__label__pcm Transfer 30,000 Naira to my contractor.
+__label__pcm I need a monthly voice and data plan.
+__label__pcm Pay the bill for my online software subscription.
+__label__pcm I want to set up an alert for large withdrawals.
+__label__pcm Explain the concept of capital appreciation.
+__label__pcm What is the minimum deposit for a fixed account?
+__label__pcm I want to start a dedicated fund for a new car.
+__label__pcm Buy me an hourly unlimited data plan.
+__label__pcm I need to pay the balance for my imported goods.
+__label__pcm Set a recurring transfer of 10k every 3 months.
+__label__pcm Give me a tip on how to negotiate a lower bill.
+__label__pcm I need to report a case of identity theft.
+__label__pcm Transfer 100 Naira to my transport budget.
+__label__pcm I need airtime worth 50 Naira for international calls.
+__label__pcm Pay the registration fee for my new business name.
+__label__pcm I want to check my account history for any suspicious activity.
+__label__pcm What are the best ways to earn passive income?
+__label__pcm I want to stop my recurring payment to my gym.
+__label__pcm Please send 2,500 Naira to the mechanic.
+__label__pcm I need to buy data for my car's GPS.
+__label__pcm Pay the bill for my monthly security subscription.
+__label__pcm Show me the total amount of debt I currently have.
+__label__pcm How can I save money on utility bills for my office?
+__label__pcm I want to apply for a credit card.
+__label__pcm Send 1,200 Naira to the account for monthly food supplies.
+__label__pcm Recharge my phone with a talk time only bundle.
+__label__pcm I need to pay the fees for my online marketing campaign.
+__label__pcm I want to check the status of my fixed deposit.
+__label__pcm Tell me about the risk of losing money in trading.
+__label__pcm I need help updating my personal information.
+__label__pcm Transfer 50,000 Naira to my primary investment advisor.
+__label__pcm Buy me a week-long data and talk bundle.
+__label__pcm I want to pay my yearly car insurance premium.
+__label__pcm Set an alert for when my credit card payment is due.
+__label__pcm What is the benefit of having a good credit score?
+__label__pcm I want to change the name on my account.
+__label__pcm Please transfer 100 Naira to my digital wallet.
+__label__pcm I need a large airtime top-up urgently.
+__label__pcm Pay the balance of my son's school fees.
+__label__pcm Show me the list of all my registered beneficiaries.
+__label__pcm How can I budget effectively for Christmas expenses?
+__label__pcm I need to report an error in my account balance.
+__label__pcm Transfer 800 Naira to a new account number.
+__label__pcm Recharge my work phone with 1,000 Naira airtime.
+__label__pcm I want to pay the annual fees for my children's school bus service.
+__label__pcm Set a recurring savings transfer of 500 Naira every morning.
+__label__pcm Give me a financial tip about saving on rent.
+__label__pcm Can you help me dispute a small transaction?
+__label__pcm Transfer 5,000 Naira to my emergency savings.
+__label__pcm I need to purchase a 5-day data plan.
+__label__pcm Pay the bill for my house cleaner.
+__label__pcm How do I access my past transaction records?
+__label__pcm What is the difference between a high-risk and low-risk investment?
+__label__pcm I want to block my card for ATM withdrawals only.
+__label__pcm Please send 1,500 Naira to my sister for a joint gift.
+__label__pcm I need to buy data for my smart TV.
+__label__pcm Pay the monthly subscription for my favorite app.
+__label__pcm Deposit 100 Naira into my savings pot as a test.
+__label__pcm Explain the concept of asset allocation in investing.
+__label__pcm Where can I find the contact details for your complaints department?
+__label__pcm I want to set up a monthly contribution to charity.
+__label__pcm Buy me an unlimited data plan for one week.
+__label__pcm I need to pay the fees for my professional board exams.
+__label__pcm Show me how much I have saved since the beginning of the year.
+__label__pcm How can I save money when buying groceries in bulk?
+__label__pcm I need to speak to a supervisor about a serious issue.
+__label__pcm Transfer 25,000 Naira to my land purchase fund.
+__label__pcm I need a daily airtime top-up.
+__label__pcm Pay the bill for my car registration renewal.
+__label__pcm I want to check the details of a transaction from six months ago.
+__label__pcm What are the steps to follow to start a savings culture?
+__label__pcm I want to change my current account type.
+__label__pcm Send 300 Naira to my transport service provider.
+__label__pcm Recharge my phone with 150 Naira data.
+__label__pcm I need to pay the outstanding balance on my mortgage.
+__label__pcm Set an alert for any deposit above 50k.
+__label__pcm Give me a financial tip on reducing restaurant spending.
+__label__pcm Can you help me calculate the interest on a loan?
+__label__pcm Please transfer 8,500 Naira to my insurance company.
+__label__pcm I need airtime for a new number I just got.
+__label__pcm Pay the bill for my daughter's birthday party expenses.
+__label__pcm I want to see a detailed report of my business transactions.
+__label__pcm Tell me about different types of loans available.
