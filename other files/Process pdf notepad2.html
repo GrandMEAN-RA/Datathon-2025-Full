@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataverse 2025: Iya Bola Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Font Import */
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@400;600;700&display=swap');
+        
+        /* Define Colors */
+        .color-blue { --color-blue: #004C91; }
+        .color-teal { --color-teal: #2BAE96; }
+        .color-bg { --color-bg: #F8F9FA; }
+        .font-main { font-family: 'Open Sans', 'Lato', sans-serif; }
+        
+        /* A4 Page Styling */
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0;
+            padding: 30px;
+            background-color: var(--color-bg);
+            box-sizing: border-box;
+            position: relative;
+            page-break-after: always; /* Ensures proper page separation */
+            overflow: hidden; /* Prevents content from spilling */
+        }
+
+        /* Essential Print Styles for Page Breaks */
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+            .page {
+                border: none !important;
+                page-break-after: always;
+                box-shadow: none;
+            }
+            .page:last-of-type {
+                page-break-after: avoid; /* Prevents blank last page */
+            }
+            .qr-code-placeholder {
+                /* Ensure QR code is rendered cleanly */
+                display: block;
+            }
+        }
+        
+        /* Header, Footer, and Watermark */
+        .header-bar {
+            height: 8px;
+            background-color: var(--color-blue);
+        }
+        .footer-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 24px;
+            padding: 4px 30px;
+            font-size: 10px;
+            color: white;
+            background-color: var(--color-blue);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .watermark-svg {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            opacity: 0.05; /* Faint opacity */
+            pointer-events: none;
+            z-index: 0;
+            width: 150px;
+            height: 150px;
+        }
+
+        /* Utility classes for consistency */
+        .title-main { color: var(--color-blue); font-size: 2.5rem; font-weight: 700; line-height: 1.1; margin-bottom: 8px; }
+        .title-section { color: var(--color-blue); border-left: 5px solid var(--color-teal); padding-left: 12px; margin-bottom: 20px; font-weight: 700; font-size: 1.5rem; }
+        .highlight-teal { color: var(--color-teal); font-weight: 600; }
+    </style>
+</head>
+<body class="font-main color-blue color-teal color-bg">
+
+    <!-- African Pattern Watermark SVG (Faint, bottom corner) -->
+    <svg class="watermark-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <pattern id="africanPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+            <path d="M 0 10 L 10 0 L 20 10 M 10 20 L 20 10 L 0 10" fill="none" stroke="#000" stroke-width="1"/>
+        </pattern>
+        <rect width="100%" height="100%" fill="url(#africanPattern)"/>
+    </svg>
+
+    <!-- Header, Logo, and Footer function (Repeats on every page) -->
+    <script>
+        const footerContent = "Dataverse Datathon 2025 | Team GrandMEAN | Ope Sadiku";
+        // Keeping the GrandMEAN logo for the header on all pages
+        const gmLogoPath = "GM Logo.png"; 
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach((page, index) => {
+                // Header Bar
+                const headerBar = document.createElement('div');
+                headerBar.className = 'header-bar w-full absolute top-0 left-0';
+                page.appendChild(headerBar);
+                
+                // Logo
+                const logo = document.createElement('img');
+                logo.src = gmLogoPath;
+                logo.alt = 'GM Logo';
+                logo.className = 'absolute top-3 right-3 h-12 w-auto';
+                page.appendChild(logo);
+
+                // Footer
+                const footer = document.createElement('div');
+                footer.className = 'footer-bar';
+                footer.innerHTML = `
+                    <span>${footerContent}</span>
+                    <span class="text-xs">Page ${index + 1} of ${pages.length}</span>
+                `;
+                page.appendChild(footer);
+            });
+        });
+    </script>
+    
+    <!-- 1️⃣ Cover (Title, Theme, Branding) -->
+    <div class="page flex flex-col justify-center items-center text-center p-16">
+        <h1 class="text-6xl font-extrabold" style="color:var(--color-blue);">IYA BOLA ASSISTANT</h1>
+        <h2 class="text-4xl font-light mt-4 text-gray-700">Bridging the Digital Divide</h2>
+        
+        <div class="mt-20 w-3/4">
+            <div class="bg-white p-8 rounded-xl shadow-2xl border-t-8" style="border-top-color:var(--color-teal);">
+                <p class="text-2xl font-semibold mb-4 text-gray-800">An AI-Powered Conversational Tool for Small Business Management</p>
+                <!-- Image of the IBA title/logo inserted here -->
+                <div class="h-64 bg-white rounded-lg flex items-center justify-center text-xl text-gray-500 font-bold p-4">
+                    <img src="IBA.png" 
+                         alt="Iya Bola Assistant Logo and Title" 
+                         class="max-h-full max-w-full object-contain"
+                    >
+                </div>
+		<p class="text-1xl font-semibold mb-4 text-gray-800">Where Language Meets Financial Access</p>
+            </div>
+        </div>
+
+        <div class="absolute bottom-24 text-lg font-semibold" style="color:var(--color-teal);">
+            Dataverse Datathon 2025 Submission
+        </div>
+    </div>
+
+    <!-- 2️⃣ Problem Understanding (Stats + Context) -->
+    <div class="page p-12 pt-20">
+        <h3 class="title-section">2. Problem Understanding: The Challenge of Digital Access & Financial Literacy</h3>
+        
+        <div class="flex space-x-8 mt-6">
+            <div class="w-1/2">
+                <p class="text-lg font-bold text-gray-700 mb-4 border-b pb-2">Key Pain Points in Sub-Saharan Africa</p>
+                <ul class="list-none space-y-4 text-gray-800 text-base">
+                    <li><span class="highlight-teal">The Gap:</span> In Sub-Saharan Africa, <span class="font-bold">only 49% of adults</span> have a bank account. Millions remain excluded due to <span class="font-bold">language barriers, digital illiteracy, and infrastructure gaps</span>. Significant disparities exist (<span class="font-bold"> 6% in South Sudan to 91% in Mauritius)</span>.
+	  </li>
+                    <li><span class="highlight-teal">Language Barrier:</span> Traditional digital tools are predominantly English-only, excluding millions of local-language speakers and low-literacy users.</li>
+                    <li><span class="highlight-teal">The Burden (Time/Effort):</span> Banks could be many kilometers away <span class="font-bold">taking hours of travel</span> for a small market vendor to reach, time that could be spent on sales.</li>
+                    <li><span class="highlight-teal">Financial Exclusion:</span> Many communities are still rural and remote therefore lacking access to banks and other financial institutionsand hence access to essential loans and credit facilities to SMEs.</li>
+                </ul>
+            </div>
+            
+            <div class="w-1/2 bg-white p-4 rounded-lg shadow">
+                <p class="text-lg font-bold text-center mb-4 border-b pb-2 text-gray-700">Market Opportunity Visualization</p>
+                <div class="h-64 bg-gray-200 rounded-lg flex items-center justify-center text-sm text-gray-500">
+	<img src="Phone use stats.png" 
+         alt="Iya Bola Assistant Logo and Title" 
+         class="max-h-full max-w-full object-contain"
+        >
+       </div>
+	
+	<p class="text-lg font-bold text-gray-700 mb-4 border-b pb-2">Key Statistics (2024–2025)</p>
+	<div class="flex space-x-8 mt-6">
+                <ul class="list-none space-y-4 text-gray-800 text-base">
+                    <li><span class="highlight-teal">Africa:</span> Ghana’s mobile money transactions hit <span class="font-bold"> GH¢1.9 trillion (↑78.7%) </span> in 2023.
+	  </li>
+                    <li><span class="highlight-teal">National:</span><span class="font-bold"> ~38 million adults</span> remain financially excluded (CBN 2023) in Nigeria.</li>
+                    <li><span class="highlight-teal">Gender Inequality:</span><span class="font-bold">Women and rural dwellers</span> form <span class="font-bold"> >60% </span> of the unbanked population.</li>
+                 </ul>
+             </div>
+         </div>
+        </div>
+    </div>
+
+    <!-- 3️⃣ Data Pipeline Flow Diagram -->
+    <div class="page p-12 pt-20">
+        <h3 class="title-section">3. Data Pipeline Flow Diagram: From Conversation to Insight</h3>
+        
+        <div class="flex flex-col space-y-8 mt-6">
+            <!-- Node 1 -->
+            <div class="flex items-center space-x-4">
+                <div class="bg-yellow-500 text-white p-3 rounded-full font-bold w-12 h-12 flex items-center justify-center text-xl" style="background-color:var(--color-blue);">1</div>
+                <div class="p-4 rounded-lg flex-grow border-2 border-gray-300 shadow-md">
+                    <p class="font-semibold text-lg"><span class="highlight-teal">Input:</span> User Voice/Text (Local Language)</p>
+                    <p class="text-sm text-gray-600">User speaks or texts their transaction in Yoruba, Pidgin, or English.</p>
+                </div>
+            </div>
+            
+            <div class="ml-8 text-center" style="color:var(--color-teal);">⬇️ **Data Ingestion**</div>
+
+            <!-- Node 2 -->
+            <div class="flex items-center space-x-4">
+                <div class="bg-yellow-500 text-white p-3 rounded-full font-bold w-12 h-12 flex items-center justify-center text-xl" style="background-color:var(--color-blue);">2</div>
+                <div class="p-4 rounded-lg flex-grow border-2 border-gray-300 shadow-md">
+                    <p class="font-semibold text-lg"><span class="highlight-teal">Processing:</span> Language Model & Translator (Gemini API)</p>
+                    <p class="text-sm text-gray-600">Intent and entity recognition for classification (Account Balance, Transfer, Airtime/Data, etc.).</p>
+                </div>
+            </div>
+
+            <div class="ml-8 text-center" style="color:var(--color-teal);">⬇️ **Entity Extraction**</div>
+            
+            <!-- Node 3 -->
+            <div class="flex items-center space-x-4">
+                <div class="bg-yellow-500 text-white p-3 rounded-full font-bold w-12 h-12 flex items-center justify-center text-xl" style="background-color:var(--color-blue);">3</div>
+                <div class="p-4 rounded-lg flex-grow border-2 border-gray-300 shadow-md">
+                    <p class="font-semibold text-lg"><span class="highlight-teal">Core Logic:</span> Business Transaction Parser (Categorization/Calculations)</p>
+                    <p class="text-sm text-gray-600">Discerns intent, language and performing appropriate internal logic.</p>
+                </div>
+            </div>
+
+            <div class="ml-8 text-center" style="color:var(--color-teal);">⬇️ **Record Keeping**</div>
+
+            <!-- Node 4 & 5 (Combined for space) -->
+            <div class="flex space-x-4">
+                <div class="w-1/2 p-4 rounded-lg border-2 border-gray-300 shadow-md flex items-center space-x-3">
+                    <div class="bg-yellow-500 text-white p-3 rounded-full font-bold w-12 h-12 flex items-center justify-center text-xl" style="background-color:var(--color-blue);">4</div>
+                    <div>
+                        <p class="font-semibold text-lg"><span class="highlight-teal">Logging:</span> CSV downloadable file</p>
+                        <p class="text-sm text-gray-600">Real-time loggingg of the last ten transactions record for storage and further analysis.</p>
+                    </div>
+                </div>
+                <div class="w-1/2 p-4 rounded-lg border-2 border-gray-300 shadow-md flex items-center space-x-3">
+                    <div class="bg-yellow-500 text-white p-3 rounded-full font-bold w-12 h-12 flex items-center justify-center text-xl" style="background-color:var(--color-blue);">5</div>
+                    <div>
+                        <p class="font-semibold text-lg"><span class="highlight-teal">Output:</span> App Response / Dashboard Update</p>
+                        <p class="text-sm text-gray-600"> Responds appropriately via text and audio and refresh analytics instantly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4️⃣ User Personas Board -->
+    <div class="page p-12 pt-20">
+        <h3 class="title-section">4. User Personas: Who is Iya Bola? Meeting Our Users.</h3>
+        
+        <div class="grid grid-cols-2 gap-8 mt-6">
+            <!-- Persona 1: Iya Bola (Market Trader) -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-top-color:var(--color-teal);">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="text-4xl">👩🏽</div>
+                    <h4 class="text-xl font-bold" style="color:var(--color-blue);">Iya Bola (Market Trader)</h4>
+                </div>
+                <p class="italic text-gray-600 mb-4 border-b pb-2">"E lo ni mo ti pa loni."</p>
+                <ul class="list-disc list-inside space-y-2 text-sm text-gray-700">
+                    <li><span class="highlight-teal">Goal:</span> Track daily sales and remaining stock accurately in her local dialect (Yoruba).</li>
+                    <li><span class="highlight-teal">Pain Point:</span> No time to visit the bank; Poor or no English literacy.</li>
+                    <li><span class="highlight-teal">Need:</span> Voice-first input and simple, visual reports.</li>
+                </ul>
+            </div>
+            
+            <!-- Persona 2: Amina (Farmer) -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-top-color:var(--color-teal);">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="text-4xl">👩🏽</div>
+                    <h4 class="text-xl font-bold" style="color:var(--color-blue);">Amina (Pidgin-speaking farmer, semi-literate) </h4>
+                </div>
+                <p class="italic text-gray-600 mb-4 border-b pb-2">"Make i quickly send my customer my aza make in pay me for yesterday."</p>
+                <ul class="list-disc list-inside space-y-2 text-sm text-gray-700">
+                    <li><span class="highlight-teal">Goal:</span> Tracks sales and savings from farm operations.</li>
+                    <li><span class="highlight-teal">Pain Point:</span> Lives in a remote village with limited network coverage and bank is far away.</li>
+                    <li><span class="highlight-teal">Need:</span> Fast, mobile access to financial services.</li>
+                </ul>
+            </div>
+
+            <!-- Persona 3: Chinedu (Service Provider) -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-top-color:var(--color-teal);">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="text-4xl">👨🏾</div>
+                    <h4 class="text-xl font-bold" style="color:var(--color-blue);"> Chinedu (Young Entrepreneur & Service Provider)</h4>
+                </div>
+                <p class="italic text-gray-600 mb-4 border-b pb-2">"I need to quickly send my client a professional payment request."</p>
+                <ul class="list-disc list-inside space-y-2 text-sm text-gray-700">
+                    <li><span class="highlight-teal">Goal:</span> Generate quick invoices and summary reports for clients and investors.</li>
+                    <li><span class="highlight-teal">Pain Point:</span> Traditional invoicing software is too cumbersome for mobile use.</li>
+                    <li><span class="highlight-teal">Need:</span> Fast, mobile access to client data and PDF export capabilities.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 5️⃣ App Blueprint (Assistant Logic Overview) -->
+    <div class="page p-12 pt-20">
+        <h3 class="title-section">5. App Blueprint: Conversational Transaction Flow</h3>
+        
+        <div class="flex flex-col items-center space-y-6 mt-6">
+            <div class="w-full bg-white p-6 rounded-xl shadow-md border-2" style="border-color:var(--color-blue);">
+                <p class="text-lg font-bold text-center" style="color:var(--color-blue);">Example Transaction: Transfer</p>
+            </div>
+
+            <!-- Step 1: User Input -->
+            <div class="flex items-center space-x-4 w-3/4">
+                <div class="text-3xl">🗣️</div>
+                <div class="bg-gray-100 p-3 rounded-xl border border-gray-300 flex-grow text-gray-700">
+                    <span class="font-semibold highlight-teal">User:</span> "Elo lo ku ni account mi?"
+                </div>
+            </div>
+
+            <div class="text-2xl" style="color:var(--color-teal);">⬇️</div>
+
+            <!-- Step 2: Assistant Logic -->
+            <div class="w-full bg-white p-4 rounded-xl shadow-lg border-4" style="border-color:var(--color-teal);">
+                <p class="font-bold mb-1" style="color:var(--color-teal);">Assistant Logic (Parsing & Categorization)</p>
+                <code class="text-xs bg-gray-50 p-2 block rounded">
+                    Action: Account Balance (Identified via "Elo ni mo ni account"); Language: Yoruba (`Elo ni mo ni`); Intent: Account Balance  (`account`).
+                </code>
+            </div>
+
+            <div class="text-2xl" style="color:var(--color-teal);">⬇️</div>
+
+            <!-- Step 3: Database Action -->
+            <div class="w-full flex items-center justify-center space-x-4">
+                <div class="text-3xl text-gray-500">💾</div>
+                <div class="bg-gray-100 p-3 rounded-xl border border-gray-300 flex-grow text-gray-700">
+                    <span class="font-semibold highlight-teal">Database:</span> Log entry.
+                </div>
+            </div>
+
+            <div class="text-2xl" style="color:var(--color-teal);">⬇️</div>
+
+            <!-- Step 4: System Response -->
+            <div class="flex items-center space-x-4 w-3/4">
+                <div class="bg-blue-50 p-3 rounded-xl border border-blue-400 flex-grow text-gray-700">
+                    <span class="font-semibold" style="color:var(--color-blue);">Response:</span> "Iwon re account balance: $xxx,yyy.zz"
+                </div>
+                <div class="text-3xl">🤖</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 6️⃣ Dashboard Insights (Mock Analytics Charts) -->
+    <div class="page p-12 pt-20">
+        <h3 class="title-section">6. Dashboard Insights: Transforming Data into Actionable Insight</h3>
+        
+        <p class="text-gray-700 mb-6">The real-time dashboard gives users and partners immediate, visual understanding of what drives financial inclusion, derived from conversational data.</p>
+        
+        <div class="grid grid-cols-2 gap-8">
+            <!-- Chart 1: Intent Dashboard -->
+            <div class="bg-white p-4 rounded-xl shadow-lg border-t-4" style="border-top-color:var(--color-blue);">
+                <p class="font-bold text-center mb-2 text-gray-700">Chart 1: User Intent Distribution </p>
+                <div class="h-40 bg-gray-200 rounded flex items-center justify-center text-sm text-gray-500">
+              	<img src="intent dashboard.png" 
+                 alt="Iya Bola Assistant Logo and Title" 
+                 class="max-h-full max-w-full object-contain"
+                >
+                </div>
+            </div>
+            
+            <!-- Chart 2: Language Dashboard -->
+            <div class="bg-white p-4 rounded-xl shadow-lg border-t-4" style="border-top-color:var(--color-blue);">
+                <p class="font-bold text-center mb-2 text-gray-700">Chart 2: Conversational Language Breakdown</p>
+                <div class="h-40 bg-gray-200 rounded flex items-center justify-center text-sm text-gray-500">
+                <img src="Language Dashboard.png" 
+                 alt="Iya Bola Assistant Logo and Title" 
+                 class="max-h-full max-w-full object-contain"
+                >
+                </div>
+            </div>
+            
+            <!-- Chart 3: Activity Log -->
+            <div class="bg-white p-4 rounded-xl shadow-lg border-t-4" style="border-top-color:var(--color-blue);">
+                <p class="font-bold text-center mb-2 text-gray-700">Chart 3: Last ten Transactions Log</p>
+                <div class="h-40 bg-gray-200 rounded flex items-center justify-center text-sm text-gray-500">
+              	   <img src="Log.png" 
+                    alt="Iya Bola Assistant Logo and Title" 
+                    class="max-h-full max-w-full object-contain"
+                   >
+                </div>
+            </div>
+
+            <!-- Chart 4: Peronal Segmentation -->
+            <div class="bg-white p-4 rounded-xl shadow-lg border-t-4" style="border-top-color:var(--color-blue);">
+                <p class="font-bold text-center mb-2 text-gray-700">Chart 4: Personal Segmentation</p>
+                <div class="h-40 bg-gray-200 rounded flex items-center justify-center text-sm text-gray-500">
+                    [Placeholder: Bar Chart: Farmers (60%), Traders (20%), Service Providers (10%), Other (10%)]
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7️⃣ Scalability & Impact -->
+    <div class="page p-12 pt-20">
+        <h3 class="title-section">7. Scalability & Impact: The Road Ahead</h3>
+        
+        <div class="grid grid-cols-2 gap-8 mt-6">
+            <!-- Scalability -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-l-4" style="border-left-color:var(--color-teal);">
+                <h4 class="text-xl font-bold mb-3" style="color:var(--color-blue);">Scalability & Technical Roadmap</h4>
+                <ul class="list-none space-y-2 text-gray-700 text-sm">
+                    <li><span class="highlight-teal">Modular Language Pack:</span> Easy integration of new languages (Hausa, Swahili, French) using dedicated fastText models.</li>
+                    <li><span class="highlight-teal">API Integration:</span> Seamless integration with third-party payment gateways and mobile money providers.</li>
+                    <li><span class="highlight-teal">Advanced LLM Functions:</span> Utilizing Gemini for predictive inventory based on historical sales and seasonal trends.</li>
+                    <li><span class="highlight-teal">Firestore Architecture:</span> Built on a secure, auto-scaling NoSQL database ready for millions of users.</li>
+                </ul>
+            </div>
+
+            <!-- Impact -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-l-4" style="border-left-color:var(--color-teal);">
+                <h4 class="text-xl font-bold mb-3" style="color:var(--color-blue);">Socio-Economic Impact</h4>
+                <ul class="list-none space-y-2 text-gray-700 text-sm">
+                    <li><span class="highlight-teal">Financial Inclusion:</span> Provides the foundation for credit scoring and formal banking access for the unbanked.</li>
+                    <li><span class="highlight-teal">Economic Growth:</span> Formalized records enable smarter business decisions, leading to higher profit margins for SMEs.</li>
+                    <li><span class="highlight-teal">Literacy Bridging:</span> Eliminates the language and digital literacy barrier, making technology accessible to all.</li>
+                    <li><span class="highlight-teal">Gender Empowerment:</span> Directly addresses the exclusion faced by female market vendors.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 8️⃣ Learnings & Next Steps -->
+    <div class="page p-12 pt-20">
+        <h3 class="title-section">8. Learnings & Future Roadmap</h3>
+        
+        <div class="grid grid-cols-2 gap-8 mt-6">
+            <!-- Learnings -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-r-4" style="border-right-color:var(--color-blue);">
+                <h4 class="text-xl font-bold mb-3 highlight-teal">Key Learnings (The Process)</h4>
+                <ul class="list-none space-y-2 text-gray-700 text-sm">
+                    <li><span class="font-bold">Technical Challenge:</span> Fine-tuning `fastText` for high accuracy in code-switching (mixing English/Pidgin/Yoruba) required extensive, targeted training data generation.</li>
+                    <li><span class="font-bold">Design Lesson:</span> The importance of simplicity. Complex features were deferred in favor of a flawlessly working, voice-first core transaction loop.</li>
+                    <li><span class="font-bold">Data Management:</span> Realizing that real-time Firestore logging, rather than batch processing, was critical for immediate user feedback and dashboard updates.</li>
+                </ul>
+            </div>
+
+            <!-- Next Steps -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-r-4" style="border-right-color:var(--color-blue);">
+                <h4 class="text-xl font-bold mb-3 highlight-teal">Next Steps (3/6/12 Month Plan)</h4>
+                <ul class="list-none space-y-2 text-gray-700 text-sm">
+                    <li><span class="font-bold">Short-Term:</span> Deploy user beta test with 50 market vendors to gather qualitative feedback and validate language models in a live environment.</li>
+                    <li><span class="font-bold">Mid-Term:</span> Integrate dedicated payment APIs (e.g., Flutterwave) to allow direct assistant-initiated transfers and bill payments.</li>
+                    <li><span class="font-bold">Long-Term:</span> Develop a robust, automated *Credit Scoring* feature based on 12 months of consistent transaction history.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 9️⃣ Closing Slide with QR Code & Quote -->
+    <div class="page p-12 pt-20 flex flex-col justify-center items-center text-center bg-gray-900 text-white">
+        <!-- Background Gradient overlay for visual pop -->
+        <div class="absolute inset-0 opacity-80" style="background-image: linear-gradient(135deg, var(--color-blue), var(--color-teal));"></div>
+        <div class="relative z-10 w-full">
+            <h4 class="text-3xl italic font-light mb-10 border-b pb-4 w-3/4 mx-auto">
+                "The future belongs to those who learn new skills and combine them in creative ways." 
+            </h4>
+	    
+	     <h4 class="text-3xl italic font-light mb-10 border-b pb-4 w-3/4 mx-auto"> 
+		Together, let’s make financial inclusion not just a goal, but a lived reality for every African.
+            </h4>	
+		            
+            <h3 class="text-4xl font-extrabold mb-8" style="color:#ffffff;">Experience Iya Bola Live!</h3>
+
+            <!-- QR Code Placeholder -->
+            <div class="qr-code-placeholder bg-white p-4 rounded-xl inline-block shadow-2xl">
+                <div class="w-40 h-40 bg-gray-200 flex items-center justify-center text-xs text-gray-500 font-bold">
+                    <img src="Iya Bola Assistant QR Code.png" 
+                    alt="Iya Bola Assistant QR Code" 
+                    class="max-h-full max-w-full object-contain"
+                   >
+                </div>
+            </div>
+
+            <div class="mt-12">
+                <p class="text-2xl font-semibold">Ope Sadiku</p>
+                <p class="text-lg" style="color:#F8F9FA;">Team GrandMEAN</p>
+                <p class="text-lg underline" style="color:var(--color-teal);">https://www.linkedin.com/in/opeyemi-sadiku-514094327/</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

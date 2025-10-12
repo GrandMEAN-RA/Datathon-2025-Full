@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iya Bola Assistant App | Dataverse Datathon 2025 Submission</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --indigo: #1a237e; /* A deep, rich indigo */
+            --gold: #fdb813;   /* A vibrant, warm gold */
+            --white: #ffffff;
+            --light-gray: #f8f9fa;
+            --dark-text: #212529;
+            --light-text: #f1f1f1;
+            --heading-font: 'Montserrat', sans-serif;
+            --body-font: 'Lato', 'Open Sans', sans-serif;
+        }
+
+        body {
+            background-color: var(--light-gray);
+            font-family: var(--body-font);
+            color: var(--dark-text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+
+        /* --- Page Layout --- */
+        .page {
+            background-color: var(--white);
+            width: 210mm; /* A4 width */
+            min-height: 297mm; /* A4 height */
+            margin: 20px auto;
+            padding: 20mm;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+
+        @media print {
+            body {
+                background-color: var(--white);
+            }
+            .page {
+                margin: 0;
+                box-shadow: none;
+                /* STRATEGY: Force break *before* every page, except the first one. */
+                page-break-before: always; 
+                page-break-after: avoid; 
+            }
+            
+            /* Fix 1: Ensure the first page does not start with a break */
+            .page:first-of-type {
+                page-break-before: avoid;
+            }
+            
+            /* Fix 2: Ensure the last page does not generate a blank page after it */
+            .page:last-of-type {
+                page-break-after: avoid;
+            }
+            
+            /* The .page-break class is no longer needed/used in the HTML */
+            .page-break {
+                display: none;
+            }
+        }
+
+        /* --- Cover Page Styling --- */
+        .cover-page {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: calc(297mm - 40mm); /* Full page height minus padding */
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+                url('https://www.transparenttextures.com/patterns/aztec.png'); /* Subtle texture */
+            border: 10px solid var(--indigo);
+        }
+        
+        .cover-page .logos {
+            display: flex;
+            gap: 40px;
+            margin-bottom: 40px;
+            align-items: center;
+        }
+
+        .cover-page .logos img {
+            max-height: 100px;
+            max-width: 100px;
+            border-radius: 50%;
+        }
+
+        .cover-page h1 {
+            font-family: var(--heading-font);
+            font-size: 2.8rem;
+            color: var(--indigo);
+            margin: 20px 0 10px 0;
+        }
+
+        .cover-page h2 {
+            font-family: var(--body-font);
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: var(--dark-text);
+            margin: 0;
+        }
+        
+        .cover-page .author {
+            margin-top: 50px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--indigo);
+        }
+
+        .geometric-border {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--gold), var(--indigo));
+        }
+
+
+        /* --- Body Layout & Typography --- */
+        h2.section-header {
+            font-family: var(--heading-font);
+            color: var(--indigo);
+            font-size: 1.8rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--gold);
+            display: inline-block;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .icon-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .icon-list li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+        
+        .icon-list .icon {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: var(--gold);
+            line-height: 1.5; /* Align icon with text */
+        }
+        
+        .persona-list li {
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .persona-list .persona-desc {
+            font-weight: 400;
+            display: block;
+            margin-left: 25px;
+            color: #555;
+            font-size: 0.95rem;
+        }
+        
+        /* Dashboard Insights Specific Styling */
+        .insights-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+        
+        .insights-grid li {
+            font-weight: 600;
+            color: var(--indigo);
+            background-color: var(--light-gray);
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            text-align: center;
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <!-- Page 1: Title Page -->
+    <div class="page">
+        <div class="cover-page">
+            <div class="logos">
+                <!-- GrandMEAN Analytics Logo (Requires GM Logo.png in the same folder) -->
+                <img src="GM Logo.png" alt="GrandMEAN Analytics Logo">
+                <!-- Dataverse Datathon 2025 Logo Placeholder -->
+                <img src="https://placehold.co/100x100/1a237e/FFFFFF?text=Dataverse" alt="Dataverse Datathon Logo">
+            </div>
+            <h1>Iya Bola Assistant App:<br>Empowering Africa through Data-Driven Financial Inclusion</h1>
+            <h2>Dataverse Datathon 2025 Submission</h2>
+            <p class="author">Ope Sadiku | GrandMEAN Analytics</p>
+            <div class="geometric-border"></div>
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- Page 2: Problem & Elevator Pitch (A and B) -->
+    <div class="page">
+        <div class="section" id="problem">
+            <h2 class="section-header">A – Validated Understanding of the Problem</h2>
+            <div class="two-column">
+                <div>
+                    <p><strong>Theme: Financial Inclusion – “Banking Iya Bolanle”</strong></p>
+                    <p>In Sub-Saharan Africa, only 49% of adults have a bank account. Millions remain excluded due to <strong>language barriers</strong>, <strong>digital illiteracy</strong>, and <strong>infrastructure gaps</strong>. Significant disparities exist (6% in South Sudan to 91% in Mauritius).</p>
+                    <p>The solution must address these main barriers:</p>
+                    <ul class="icon-list" style="margin-top: 5px;">
+                        <li><span class="icon">📶</span> Poor connectivity</li>
+                        <li><span class="icon">🗣️</span> Language exclusion</li>
+                        <li><span class="icon">📱</span> Limited device literacy</li>
+                        <li><span class="icon">💰</span> Distrust in digital systems</li>
+                        <li><span class="icon">🎓</span> Low financial education</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong>Key Statistics (2024–2025):</strong></p>
+                    <ul>
+                        <li>Ghana’s mobile money transactions hit GH¢1.9 trillion (↑78.7%) in 2023.</li>
+                        <li>Nigeria: ~38 million adults remain financially excluded (CBN 2023).</li>
+                        <li>Women and rural dwellers form >60% of the unbanked population.</li>
+                    </ul>
+                    <p style="margin-top: 20px;"><strong>Solution Overview:</strong> Inclusive financial assistant supporting text and optional voice input. It handles essential financial tasks and extended services (financial education, agriculture payments, school fee reminders). Designed for low-digital-literacy users with trust, usability, and accessibility in mind.</p>
+                </div>
+            </div>
+        </div>
+        <hr style="border: 1px solid var(--gold); margin: 40px 0;">
+        <div class="section" id="pitch">
+            <h2 class="section-header">B – Elevator Pitch</h2>
+            <p style="font-size: 1.1rem; font-style: italic; color: var(--indigo);">"Iya Bola Assistant App is a multilingual, multimodal financial assistant designed to empower underserved African populations. It enables essential financial tasks—transfers, bill payments, airtime, micro-savings. It also provides financial education, real-time analytics, and a user-friendly interface for low-digital-literacy users."</p>
+        </div>
+        <!-- Section C (Personas) was here, now moved to Page 3 -->
+    </div>
+
+    <!-- Page 3: User Personas & Blueprint (C and D) -->
+    <div class="page">
+        <div class="section" id="personas">
+            <h2 class="section-header">C – User Personas</h2>
+            <ul class="persona-list">
+                <li><span role="img" aria-label="market woman">👩🏽</span> Iya Bola <span class="persona-desc">Yoruba market woman with a voice-first preference for transactions.</span></li>
+                <li><span role="img" aria-label="farmer">👩🏾</span> Amina <span class="persona-desc">Pidgin-speaking farmer who is semi-literate and needs simple budgeting.</span></li>
+                <li><span role="img" aria-label="student">👨🏾</span> Chinedu <span class="persona-desc">Tech-savvy student who is a bilingual digital native, testing advanced features.</span></li>
+            </ul>
+        </div>
+        <hr style="border: 1px solid var(--gold); margin: 40px 0;">
+        <div class="section" id="blueprint">
+            <h2 class="section-header">D – Inclusive Financial Assistant Blueprint</h2>
+            <p><strong>Concept:</strong> An AI-driven multilingual assistant providing inclusive financial access.</p>
+            <div class="two-column">
+                <div>
+                    <h3 style="font-family: var(--heading-font); font-size: 1.2rem; color: var(--gold); margin-top: 0;">Interaction Modes:</h3>
+                    <ul class="icon-list">
+                        <li><span class="icon">💬</span> <strong>Text:</strong> Conversational chat (SMS, WhatsApp, Web).</li>
+                        <li><span class="icon">🎤</span> <strong>Voice:</strong> Natural language commands for low-literacy users.</li>
+                        <li><span class="icon">🗣️</span> <strong>Languages:</strong> English, Nigerian Pidgin, Yoruba (extendable to Hausa, Swahili, Twi).</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 style="font-family: var(--heading-font); font-size: 1.2rem; color: var(--gold); margin-top: 0;">Core & Extended Functions:</h3>
+                    <ul class="icon-list">
+                        <li><span class="icon">💸</span> <strong>Core Financial:</strong> Transfers, Airtime/Data, Bill Payments, Micro-Savings.</li>
+                        <li><span class="icon">📖</span> <strong>Beyond Banking:</strong> Financial Literacy Tips, Agricultural Payment Integration, School Fee Reminders.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Section E (Key Features) was here, now moved to Page 4 -->
+    </div>
+    
+    <!-- Page 4: Features, Deliverables, Impact (E, F, and G) -->
+    <div class="page">
+        <div class="section" id="features">
+            <h2 class="section-header">E – Key Features</h2>
+            <ul class="icon-list">
+                <li><span class="icon">🗣️</span> <strong>Multilingual & Inclusive:</strong> Supports English, Pidgin, and Yoruba to reach underserved communities.</li>
+                <li><span class="icon">💸</span> <strong>Core Financial Tasks:</strong> Transfers, bill payments, airtime/data purchases, and micro-savings.</li>
+                <li><span class="icon">🎓</span> <strong>Financial Education: </strong> Delivers tips and guidance for low-digital-literacy users.</li>
+                <li><span class="icon">📊</span> <strong>Real-Time Insights:</strong> Live dashboard with intent & language analytics; CSV export for further analysis.</li>
+            </ul>
+            <h4 style="font-family: var(--heading-font); font-size: 1rem; color: var(--indigo); margin-top: 20px;">Dashboard Insights (Sample Analytics):</h4>
+            <ul class="insights-grid">
+                <li>📊 Intent Distribution</li>
+                <li>🌐 Language Breakdown</li>
+                <li>💬 Confidence Metrics</li>
+                <li>💵 Avg Transaction Trends</li>
+            </ul>
+        </div>
+        <hr style="border: 1px solid var(--gold); margin: 40px 0;">
+         <div class="two-column">
+            <div class="section" id="prototype">
+                <h2 class="section-header">F – Prototype & Deliverables</h2>
+                <p>The functional components delivered during the datathon include:</p>
+                <ul class="icon-list">
+                    <li><span class="icon">1️⃣</span> <strong>Streamlit Chatbot Prototype: </strong> Text + optional voice I/O, multi-language support (English, Pidgin, Yoruba), handling core financial and educational tasks.</li>
+                    <li><span class="icon">2️⃣</span> <strong>Real-Time Dashboard: </strong> Visualizes user intents and language usage with a CSV export function for advanced analysis.</li>
+                    <li><span class="icon">3️⃣</span> <strong>Sample CSV Log: </strong> Mock data included to simulate real user interactions and demo dashboard capabilities.</li>
+                    <li><span class="icon">4️⃣</span> <strong>Project Overview & README:</strong> Setup instructions and pitch summary included in the ZIP file.</li>
+                </ul>
+            </div>
+             <div class="section" id="impact">
+                <h2 class="section-header">G – Impact & Scalability</h2>
+                <p>The solution is designed for adoption by banks, fintechs, telcos, and community organizations to <strong>increase financial inclusion</strong> in underserved regions.</p>
+                 <ul class="icon-list">
+                    <li><span class="icon">💡</span> <strong><pre>Impact:	</pre></strong> Fosters financial inclusion, improves business sustainability for micro-entrepreneurs, and promotes data literacy at the grassroots level.</li>
+                    <li><span class="icon">📶</span> <strong><pre>Scalability: </pre></strong> The modular design allows for the rapid addition of new languages, financial services, and regional deployments. Ensures privacy, trust, and high usability for low-digital-literacy users.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Page 5: Files & Upgrades (H & I) -->
+    <div class="page">
+        <div class="section" id="files">
+            <h2 class="section-header">H – Files Included in ZIP:</h2>
+            <p>The `Datathon 2025.zip` file contains the following components:</p>
+            <div class="two-column">
+                <ul>
+                    <li><code>iya_bola_assistant_app.py</code></li>
+                    <li><code>iya_bola_assistant_app_MVP.py</code></li>
+                </ul>
+                <ul>
+                    <li><code>README.md</code></li>
+                    <li><code>sample_user_log.csv</code></li>
+                    <li><code>project_overview.txt</code></li>
+                </ul>
+            </div>
+        </div>
+        <hr style="border: 1px solid var(--gold); margin: 0 0 40px 0;">
+        <div class="section" id="upgrades">
+            <h2 class="section-header">I – Future Upgrades</h2>
+            <p>We have a clear roadmap for enhancing the app's capabilities post-datathon:</p>
+            <ul class="icon-list">
+                <li><span class="icon">🤖</span> <strong>Smarter AI Responses:	</strong> Add a GPT API backend to provide more natural, intelligent, and context-aware responses and financial advice.</li>
+                <li><span class="icon">💾</span> <strong>Permanent Data Storage:	</strong> Integrate Firebase or SQLite for robust and permanent chat and transaction storage, enabling long-term user history.</li>
+                <li><span class="icon">📈</span> <strong>Advanced Dashboards:	</strong> Enable data export to CSV for integration with Power BI, offering users powerful, visual business intelligence dashboards.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
