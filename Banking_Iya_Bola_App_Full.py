@@ -14,10 +14,9 @@ Requirements:
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-#from langdetect import detect
 import tempfile
 import fasttext
-#import os
+import plotly.express as px
 
 # ---------------------------------------------------
 # INITIAL PAGE CONFIG (run once per session)
@@ -58,9 +57,15 @@ def load_lang_model():
 lang_model = load_lang_model()
 
 # ---------------------------------------------------
-# LANGUAGE SETTINGS
+# LANGUAGE AND SETTINGS
 # ---------------------------------------------------
-st.markdown("### 🌐 Language Settings")
+st.markdown("### 🌐 Gender & Language Settings")
+
+gender_spec = st.radio(
+    "Select your gender identity:",
+    ("Male", "Female"),
+    horizontal=True
+)
 
 language_choice = st.radio(
     "Select your preferred language:",
@@ -78,28 +83,32 @@ voice_lang = st.selectbox(
     index=0
 )
 
+# ---------------------------------------------------
+# LANGUAGE DETECTION
+# ---------------------------------------------------
 def detect_language(user_input):
-    """
-    Detect language based on user preference or ML classification.
-    """
-    # Step 1: Respect user's manual choice
+    """Detect language based on user preference or ML classification."""
     if language_choice != "Auto-detect":
         return language_choice
 
-    # Step 2: Try ML model if available
     if lang_model:
         try:
             prediction = lang_model.predict(user_input)
             label = prediction[0][0].replace("__label__", "")
+            if label == "pcm":
+                label = "Pidgin"
+            elif label == "yo":
+                label = "Yoruba"
+            elif label == "en":
+                label = "English"
             return label
         except Exception:
             pass
 
-    # Step 3: Heuristic fallback (keyword-based)
     text = user_input.lower()
-    if any(word in text for word in ["oya", "abeg", "wahala", "dey"]):
+    if any(word in text for word in ["oya", "abeg", "wahala", "dey", "wan", "una", "papa", "wetin"]):
         return "Pidgin"
-    elif any(word in text for word in ["bawo", "e kaaro", "se", "ni"]):
+    elif any(word in text for word in ["bawo", "e kaaro", "se", "ni", "elo", "ranse", "fun mi"]):
         return "Yoruba"
     else:
         return "English"
@@ -109,7 +118,7 @@ def detect_language(user_input):
 # ---------------------------------------------------
 def classify_intent(message):
     msg = message.lower()
-    if any(x in msg for x in ["balance", "account", "check", "weytin dey"]):
+    if any(x in msg for x in ["balance", "account", "check", "wetin dey"]):
         return "Account Balance"
     elif any(x in msg for x in ["send", "transfer", "give", "wan send"]):
         return "Money Transfer"
@@ -146,7 +155,7 @@ def generate_response(message, language, intent):
     return responses.get(intent, responses["General Chat"])
 
 # ---------------------------------------------------
-# SPEECH RECOGNITION (SAFE)
+# SPEECH RECOGNITION
 # ---------------------------------------------------
 def recognize_speech():
     if sr is None:
@@ -161,7 +170,6 @@ def recognize_speech():
             text = recognizer.recognize_google(audio, language=voice_lang)
             st.success(f"You said: {text}")
             return text
-
     except AttributeError:
         st.error("🎧 Audio not found. Speech recognition unavailable on this platform.")
     except OSError:
@@ -172,11 +180,10 @@ def recognize_speech():
         st.error("⚠️ Speech service unavailable or selected language not supported.")
     except Exception as e:
         st.error(f"⚙️ Unexpected audio error: {str(e)}")
-
     return ""
 
 # ---------------------------------------------------
-# TEXT-TO-SPEECH (SAFE)
+# TEXT-TO-SPEECH
 # ---------------------------------------------------
 def speak_text(response_text):
     if gTTS is None:
@@ -188,7 +195,6 @@ def speak_text(response_text):
         temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")
         tts.save(temp_file.name)
         st.audio(temp_file.name, format="audio/mp3")
-
     except AssertionError:
         st.warning("⚙️ Nothing to speak — the response text is empty.")
     except ValueError as ve:
@@ -203,41 +209,148 @@ def speak_text(response_text):
 # ---------------------------------------------------
 col1, col2 = st.columns([2, 1])
 
+# --- CHAT WINDOW ---
 with col1:
     st.subheader("💬 Chat Window")
-    user_input = st.text_input("Type your message below 👇", placeholder="E.g., I wan send 2k go my mama account")
+    user_input = st.text_input(
+        "Type your message below 👇",
+        placeholder="E.g., I wan send 2k go my mama account",
+        key="user_input_box"
+    )
 
+    # Ensure a flag to prevent duplicate logging
+    if "last_logged_input" not in st.session_state:
+        st.session_state["last_logged_input"] = None
+
+    # Speech button
     if st.button("🎙️ Speak Instead"):
         user_input = recognize_speech()
 
-    if st.button("Send") or user_input:
-        if user_input:
+    # Send button logic (log only once per new message)
+    if st.button("Send") and user_input:
+        if user_input != st.session_state["last_logged_input"]:
             language = detect_language(user_input)
             intent = classify_intent(user_input)
             response = generate_response(user_input, language, intent)
+
             st.session_state["log"].append({
                 "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 "user_input": user_input,
                 "language": language,
                 "intent": intent,
-                "response": response
+                "response": response,
+                "gender": gender_spec
             })
+
+            st.session_state["last_logged_input"] = user_input  # ✅ store last input
             st.info(f"🗣️ Language used: {language}")
             st.success(response)
             speak_text(response)
+        else:
+            st.warning("⚠️ You already sent this message.")
 
-with col2:
-    st.subheader("📊 Real-Time Dashboard")
-    if st.session_state["log"]:
-        df = pd.DataFrame(st.session_state["log"])
-        st.write("### Intent Distribution")
-        st.bar_chart(df["intent"].value_counts())
-        st.write("### Language Usage")
-        st.bar_chart(df["language"].value_counts())
-        st.write("### Last 10 Interactions")
-        st.dataframe(df.tail(10), use_container_width=True)
-        csv = df.to_csv(index=False).encode("utf-8")
-        st.download_button("⬇️ Download Log (CSV)", data=csv,
-                           file_name="iya_bola_chat_log.csv", mime="text/csv")
+
+st.subheader("📊 Real-Time Dashboard")
+
+# Check for log data
+if st.session_state.get("log"):
+    df = pd.DataFrame(st.session_state["log"])
+
+    # Ensure timestamp column exists and convert to datetime
+    if "timestamp" in df.columns:
+        df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
+
+    # --- FILTERS ---
+    st.markdown("### 🔍 Filter Data")
+
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        selected_gender = st.selectbox(
+            "Filter by Gender", 
+            options=["All"] + sorted(df["gender"].dropna().unique().tolist())
+        )
+    with col2:
+        selected_intent = st.selectbox(
+            "Filter by Intent", 
+            options=["All"] + sorted(df["intent"].dropna().unique().tolist())
+        )
+    with col3:
+        selected_language = st.selectbox(
+            "Filter by Language", 
+            options=["All"] + sorted(df["language"].dropna().unique().tolist())
+        )
+
+    # --- DATE RANGE FILTER ---
+    if "timestamp" in df.columns and not df["timestamp"].isna().all():
+        min_date = df["timestamp"].min().date()
+        max_date = df["timestamp"].max().date()
+        st.markdown("#### 📅 Filter by Date Range")
+        start_date, end_date = st.date_input(
+            "Select Date Range",
+            value=(min_date, max_date),
+            min_value=min_date,
+            max_value=max_date
+        )
     else:
-        st.info("No chats yet. Start a conversation!")
+        start_date, end_date = None, None
+
+    # --- APPLY FILTERS ---
+    filtered_df = df.copy()
+    if selected_gender != "All":
+        filtered_df = filtered_df[filtered_df["gender"] == selected_gender]
+    if selected_intent != "All":
+        filtered_df = filtered_df[filtered_df["intent"] == selected_intent]
+    if selected_language != "All":
+        filtered_df = filtered_df[filtered_df["language"] == selected_language]
+    if start_date and end_date:
+        filtered_df = filtered_df[
+            (filtered_df["timestamp"].dt.date >= start_date)
+            & (filtered_df["timestamp"].dt.date <= end_date)
+        ]
+
+    # --- CHARTS ---
+    st.markdown("### 📈 Insights Overview")
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.markdown("#### Intent Distribution")
+        st.bar_chart(filtered_df["intent"].value_counts())
+
+    with col2:
+        st.markdown("#### Language Usage")
+        st.bar_chart(filtered_df["language"].value_counts())
+
+    with col3:
+        st.markdown("#### Gender Inclusion")
+        gender_counts = filtered_df["gender"].value_counts().reset_index()
+        gender_counts.columns = ["Gender", "Count"]
+
+        if not gender_counts.empty:
+            fig = px.pie(
+                gender_counts,
+                values="Count",
+                names="Gender",
+                title="Gender Distribution",
+                color_discrete_sequence=px.colors.qualitative.Set3
+            )
+            fig.update_traces(textinfo="percent+label", pull=[0.05]*len(gender_counts))
+            st.plotly_chart(fig, use_container_width=True)
+        else:
+            st.info("No gender data available for current filters.")
+
+    # --- LAST 10 INTERACTIONS ---
+    st.markdown("### 🧾 Last 10 Interactions (Filtered)")
+    st.dataframe(filtered_df.tail(10), use_container_width=True)
+
+    # --- DOWNLOAD BUTTON ---
+    csv = filtered_df.to_csv(index=False).encode("utf-8")
+    st.download_button(
+        "⬇️ Download Filtered Log (CSV)",
+        data=csv,
+        file_name="iya_bola_filtered_log.csv",
+        mime="text/csv"
+    )
+
+else:
+    st.info("No logs found yet. Start interacting to generate dashboard data.")
