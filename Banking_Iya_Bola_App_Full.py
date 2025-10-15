@@ -223,7 +223,13 @@ def speak_text(response_text, language):
         "pcm": "facebook/mms-tts-pcm",
         "en": "facebook/mms-tts-eng"
     }
-    model_id = hf_models.get(language, "facebook/mms-tts-eng")
+    if language in ("English","en","EN"):
+        model_id = hf_models.get("en", "facebook/mms-tts-eng")
+    if language in ("Yoruba","yo"):
+        model_id = hf_models.get("yo", "facebook/mms-tts-yor")
+    if language in ("Pidgin","pcm"):
+        model_id = hf_models.get("pcm", "facebook/mms-tts-pcm") 
+    
     token = os.getenv("HF_TOKEN")
 
     try:
