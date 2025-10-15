@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: iya-bola-assistant
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: bash start.sh
+    envVars:
+      - key: HF_TOKEN
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.10.14
