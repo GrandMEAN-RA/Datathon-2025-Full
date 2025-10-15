@@ -223,31 +223,52 @@ def speak_text(response_text, language):
         "pcm": "facebook/mms-tts-pcm",
         "en": "facebook/mms-tts-eng"
     }
-    if language in ("English","en","EN"):
-        model_id = hf_models.get("en", "facebook/mms-tts-eng")
-    if language in ("Yoruba","yo"):
-        model_id = hf_models.get("yo", "facebook/mms-tts-yor")
-    if language in ("Pidgin","pcm"):
-        model_id = hf_models.get("pcm", "facebook/mms-tts-pcm") 
-    
+
+    # Select the right model ID
+    if language in ("English", "en", "EN"):
+        model_id = hf_models["en"]
+        language = "en"
+    elif language in ("Yoruba", "yo"):
+        model_id = hf_models["yo"]
+        language = "yo"
+    elif language in ("Pidgin", "pcm"):
+        model_id = hf_models["pcm"]
+        language = "pcm"
+    else:
+        model_id = hf_models["en"]
+        language = "en"
+
     token = os.getenv("HF_TOKEN")
 
     try:
+        # --- Try Hugging Face TTS first ---
         if not token:
             raise ValueError("Missing HF_TOKEN. Using fallback gTTS.")
+
         resp = requests.post(
             f"https://api-inference.huggingface.co/models/{model_id}",
             headers={"Authorization": f"Bearer {token}"},
             json={"inputs": response_text}
         )
         resp.raise_for_status()
-        audio_data = base64.b64decode(resp.json()["audio"])
+        result = resp.json()
+
+        # Ensure 'audio' exists
+        if "audio" not in result:
+            raise ValueError("No audio field returned from Hugging Face model.")
+
+        audio_data = base64.b64decode(result["audio"])
         temp = tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")
         with open(temp.name, "wb") as f:
             f.write(audio_data)
         st.audio(temp.name, format="audio/mp3")
+
     except Exception:
-        # Fallback to gTTS if API or model not available
+        # --- Fallback to gTTS ---
+        if gTTS is None:
+            st.warning("Speech unavailable: gTTS not installed or failed to import.")
+            return
+
         lang_code = {"yo": "en", "pcm": "en", "en": "en"}.get(language, "en")
         try:
             tts = gTTS(text=response_text, lang=lang_code)
@@ -256,6 +277,7 @@ def speak_text(response_text, language):
             st.audio(tmp.name, format="audio/mp3")
         except Exception as e:
             st.error(f"Speech unavailable: {e}")
+
 
 
 # ---------------------------------------------------
