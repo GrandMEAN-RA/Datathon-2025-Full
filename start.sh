@@ -11,4 +11,4 @@ pip install -r requirements.txt
 echo "✅ Setup complete! Starting Streamlit app..."
 
 # Start the Streamlit app on the Render-assigned port
-streamlit run banking_iya_bola_extended.py --server.port=$PORT --server.address=0.0.0.0
+streamlit run banking_iya_bola_App_Full.py --server.port=$PORT --server.address=0.0.0.0
