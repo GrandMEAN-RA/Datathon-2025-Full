@@ -17,6 +17,9 @@ from datetime import datetime
 import tempfile
 import fasttext
 import plotly.express as px
+import requests
+import base64
+import os
 
 # ---------------------------------------------------
 # INITIAL PAGE CONFIG (run once per session)
@@ -95,11 +98,11 @@ def detect_language(user_input):
         try:
             prediction = lang_model.predict(user_input)
             label = prediction[0][0].replace("__label__", "")
-            if label == "pcm":
+            if label in ("pcm","Pidgin","pidgin","pijin","pigin"):
                 label = "Pidgin"
-            elif label == "yo":
+            elif label in ("Yoruba","yo","yoruba"):
                 label = "Yoruba"
-            elif label == "en":
+            elif label in ("English","en","english"):
                 label = "English"
             return label
         except Exception:
@@ -108,7 +111,7 @@ def detect_language(user_input):
     text = user_input.lower()
     if any(word in text for word in ["oya", "abeg", "wahala", "dey", "wan", "una", "papa", "wetin"]):
         return "Pidgin"
-    elif any(word in text for word in ["bawo", "e kaaro", "se", "ni", "elo", "ranse", "fun mi"]):
+    elif any(word in text for word in ["ba mi","fi","bawo", "e kaaro", "se", "ni", "elo", "ranse", "fun mi"]):
         return "Yoruba"
     else:
         return "English"
@@ -118,17 +121,17 @@ def detect_language(user_input):
 # ---------------------------------------------------
 def classify_intent(message):
     msg = message.lower()
-    if any(x in msg for x in ["balance", "account", "check", "wetin dey"]):
+    if any(x in msg for x in ["balance", "account", "check", "wetin dey", "wetin remain", "ki lo ku", "oye to ku"]):
         return "Account Balance"
-    elif any(x in msg for x in ["send", "transfer", "give", "wan send"]):
+    elif any(x in msg for x in ["send", "pay", "credit", "transfer", "give", "wan send","ranse", "ranse si"]):
         return "Money Transfer"
-    elif any(x in msg for x in ["buy airtime", "recharge", "data"]):
+    elif any(x in msg for x in ["buy airtime", "recharge", "data","ra data"]):
         return "Airtime / Data Purchase"
-    elif any(x in msg for x in ["bill", "light", "pay nepa", "dstv"]):
+    elif any(x in msg for x in ["bill", "light", "pay nepa", "dstv","owo ina"]):
         return "Bill Payment"
-    elif any(x in msg for x in ["save", "keep", "contribute"]):
+    elif any(x in msg for x in ["save", "keep", "contribute","pamo","hold","holam","hol"]):
         return "Micro-Savings"
-    elif any(x in msg for x in ["teach", "how to", "explain", "meaning"]):
+    elif any(x in msg for x in ["teach", "how to", "explain", "meaning","ko mi","mo fe mo"]):
         return "Financial Education"
     else:
         return "General Chat"
@@ -138,21 +141,50 @@ def classify_intent(message):
 # ---------------------------------------------------
 def generate_response(message, language, intent):
     responses = {
-        "Account Balance": "💰 Your Account Balance: ₦xxx,yyy.zz 💸",
-        "Money Transfer": "✅ Transaction successful! ₦2,000 has been sent. 💸",
-        "Airtime / Data Purchase": "📱 Airtime top-up complete. You’ve been credited with ₦500!",
-        "Bill Payment": "💡 Your NEPA bill has been paid successfully.",
-        "Micro-Savings": "💰 Great! ₦1,000 saved to your micro-savings account.",
-        "Financial Education": "📖 Tip: Always save at least 10% of your income monthly.",
-        "General Chat": "👋 I'm happy to assist with your financial tasks anytime!"
+        "Account Balance": {
+            "en": "✅ Your account balance is ₦xxx,yyy.zz. 💸",
+            "pcm": "✅ Ya account balance bin ₦xxx,yyy.zz. 💸",
+            "yo": "✅ Oye to ku ninu apo ifowopamo re ni ₦xxx,yyy.zz. 💸",
+        },
+        "Money Transfer": {
+            "en": "✅ Transaction successful! ₦2,000 has been sent. 💸",
+            "pcm": "✅ Di transfer don go! You don send ₦2,000. 💸",
+            "yo": "✅ Ìsanwó ṣáájú! O ti fi ₦2,000 ránṣẹ́. 💸",
+        },
+        "Airtime / Data Purchase": {
+            "en": "📱 Airtime top-up complete. You’ve been credited with ₦500!",
+            "pcm": "📱 Airtime don enter! You don get ₦500 credit!",
+            "yo": "📱 Airtime rẹ ti wáyé! ₦500 ti jẹ́ kó tó ọ́!",
+        },
+        "Bill Payment": {
+            "en": "💡 Your NEPA bill has been paid successfully.",
+            "pcm": "💡 You don pay your NEPA bill sharp sharp.",
+            "yo": "💡 Ìsanwó NEPA rẹ ti péye.",
+        },
+        "Micro-Savings": {
+            "en": "💰 Great! ₦1,000 saved to your micro-savings account.",
+            "pcm": "💰 Correct! ₦1,000 don enter your savings.",
+            "yo": "💰 Dáadáa! ₦1,000 ti fi pamọ́ sí àkọọlẹ̀ ipamọ́ rẹ.",
+        },
+        "Financial Education": {
+            "en": "📖 Tip: Always save at least 10% of your income monthly.",
+            "pcm": "📖 Tip: Try save small-small every month, like 10%.",
+            "yo": "📖 Ìmòràn: Máa fi 10% owó-oṣù rẹ pamọ́ lẹ́ẹ̀kan oṣù.",
+        },
+        "General Chat": {
+            "en": "👋 I'm happy to assist with your financial tasks anytime!",
+            "pcm": "👋 I dey always ready to help you with your money mata!",
+            "yo": "👋 Inú mi dùn láti ran ọ́ lọ́wọ́ nípa ìṣúná rẹ!",
+        },
     }
 
-    if language in ["Yoruba", "yo"]:
-        responses = {k: v.replace("Your", "Ìwọ̀n rẹ") for k, v in responses.items()}
-    elif language in ["Pidgin", "pcm"]:
-        responses = {k: v.replace("Your", "Ya own") for k, v in responses.items()}
-
-    return responses.get(intent, responses["General Chat"])
+    resp = responses.get(intent, responses["General Chat"])
+    if language in ("English","en","EN"):
+        return resp.get(language, resp["en"])
+    if language in ("Yoruba","yo"):
+        return resp.get(language, resp["yo"])
+    if language in ("Pidgin","pcm"):
+        return resp.get(language, resp["pcm"])
 
 # ---------------------------------------------------
 # SPEECH RECOGNITION
@@ -185,24 +217,40 @@ def recognize_speech():
 # ---------------------------------------------------
 # TEXT-TO-SPEECH
 # ---------------------------------------------------
-def speak_text(response_text):
-    if gTTS is None:
-        st.warning("🔇 Text-to-speech not installed. Voice playback unavailable.")
-        return
+def speak_text(response_text, language):
+    hf_models = {
+        "yo": "facebook/mms-tts-yor",
+        "pcm": "facebook/mms-tts-pcm",
+        "en": "facebook/mms-tts-eng"
+    }
+    model_id = hf_models.get(language, "facebook/mms-tts-eng")
+    token = os.getenv("HF_TOKEN")
 
     try:
-        tts = gTTS(text=response_text, lang="en")
-        temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")
-        tts.save(temp_file.name)
-        st.audio(temp_file.name, format="audio/mp3")
-    except AssertionError:
-        st.warning("⚙️ Nothing to speak — the response text is empty.")
-    except ValueError as ve:
-        st.error(f"🌐 Text-to-speech error: {ve}")
-    except OSError:
-        st.error("🌐 Network issue: could not reach text-to-speech service.")
-    except Exception as e:
-        st.error(f"⚙️ Voice generation error: {str(e)}")
+        if not token:
+            raise ValueError("Missing HF_TOKEN. Using fallback gTTS.")
+        resp = requests.post(
+            f"https://api-inference.huggingface.co/models/{model_id}",
+            headers={"Authorization": f"Bearer {token}"},
+            json={"inputs": response_text}
+        )
+        resp.raise_for_status()
+        audio_data = base64.b64decode(resp.json()["audio"])
+        temp = tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")
+        with open(temp.name, "wb") as f:
+            f.write(audio_data)
+        st.audio(temp.name, format="audio/mp3")
+    except Exception:
+        # Fallback to gTTS if API or model not available
+        lang_code = {"yo": "en", "pcm": "en", "en": "en"}.get(language, "en")
+        try:
+            tts = gTTS(text=response_text, lang=lang_code)
+            tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")
+            tts.save(tmp.name)
+            st.audio(tmp.name, format="audio/mp3")
+        except Exception as e:
+            st.error(f"Speech unavailable: {e}")
+
 
 # ---------------------------------------------------
 # MAIN LAYOUT
@@ -245,7 +293,7 @@ with col1:
             st.session_state["last_logged_input"] = user_input  # ✅ store last input
             st.info(f"🗣️ Language used: {language}")
             st.success(response)
-            speak_text(response)
+            speak_text(response, language)
         else:
             st.warning("⚠️ You already sent this message.")
 

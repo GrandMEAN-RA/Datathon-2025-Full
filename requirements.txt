@@ -1,16 +1,26 @@
-# Core app dependencies
+# --- Core runtime ---
 streamlit==1.38.0
-pandas
-langdetect
-plotly
+pandas==2.2.3
+numpy==1.26.4
+plotly==5.24.1
+langdetect==1.0.9
+fasttext==0.9.3
 
-# Optional voice support
-SpeechRecognition
-gTTS
-#PyAudio
+# --- Optional voice + audio ---
+gTTS==2.5.1
+SpeechRecognition==3.10.4
 
-# Machine learning for language classification
-fasttext
+# --- Utility libraries ---
+requests==2.32.3
+python-dotenv==1.0.1
+torch
+torchaudio
+transformers
+huggingface_hub
+requests
 
-# (Optional but recommended for production stability)
-numpy
+# --- Visualization (optional for reports / dashboards) ---
+matplotlib==3.9.2
+seaborn==0.13.2
+
+
